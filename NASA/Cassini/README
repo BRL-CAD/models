@@ -1,0 +1,42 @@
+This version of the Cassini Orbiter model is from the original Inventor format model:
+
+http://space.jpl.nasa.gov/models/models/cassini.iv.gz
+
+(Note: I think the https://nasa3d.arc.nasa.gov/detail/cassini-assy model is probably a
+conversion from this original.)
+
+Cassini Orbiter, 300,000 primitives
+Includes orbiter from CAD models. Accurate (to a fault) except no
+thermal blanketing is shown (this would cover most of the central
+structure of the spacecraft).
+
+
+Conversion notes:
+
+In 2021 I finally found a conversion path that extracted the data into a
+useful form:
+
+The ubuntu package inventor-clients has a tool ivcat which can go from binary
+inventor to ascii inventor:
+
+ivcat cassini.iv > ascii.iv
+
+Then, the tool ivcon from https://sourceforge.net/projects/ivcon-tl/ can deal
+with the ASCII form of the IV file.
+
+./ivcon ascii.iv ascii.obj
+
+The obj file was then converted into BRL-CAD (via the gcv assimp importer) and
+post processed.  Vertex fusing, followed by bot splitting to break up individual
+pieces to try and separate the original single mesh into per-part meshes.
+
+The odds are excellent that this over-split the mesh, producing separate pieces
+as a consequence of flaws in the original mesh, but in many cases the results
+seem to be reasonable.  The current cassini.g file is at least a good starting
+point for further work.
+
+Given the difficulty of recovering the data, three copies are preserved here:
+
+cassini.iv.gz - the original space.jpl.nasa.gov file
+cassini.obj.gz - the OBJ conversion produced as described above
+cassini.g - the post-processed OBJ file with regions and color randomization applied
