@@ -1,0 +1,4468 @@
+97_nissan_pickup/
+	u cab_asy/
+		u cab_exterior/
+			u lt_cab/
+				u lt_rear_window/
+					u lt_rear_window1.r/R
+					        @ color          0/255/255
+					        @ los            100
+					        @ material_id    13
+					        @ oshader        glass
+					        @ region         R
+					        @ region_id      1000
+					        @ rgb            0/255/255
+					        @ shader         glass
+						u lt_rear_window1.s
+						        @ Proe_Name    LT_REAR_WINDOW
+				u lt_cab1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1001
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u lt_cab1.s
+					        @ Proe_Name    LT_CAB
+					- lt_door1.s
+					        @ Proe_Name    LT_DOOR
+					- firewall1.s
+					        @ Proe_Name    FIREWALL
+			u rt_cab/
+				u rt_rear_window/
+					u rt_rear_window1.r/R
+					        @ color          0/255/255
+					        @ los            100
+					        @ material_id    13
+					        @ oshader        glass
+					        @ region         R
+					        @ region_id      1010
+					        @ rgb            0/255/255
+					        @ shader         glass
+						u rt_rear_window1.s
+						        @ Proe_Name    RT_REAR_WINDOW
+				u rt_cab1.r/R
+				        @ color          191/63/63
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1011
+				        @ rgb            191/63/63
+				        @ shader         plastic 
+					u rt_cab1.s
+					        @ Proe_Name    RT_CAB
+					- rt_door1.s
+					        @ Proe_Name    RT_DOOR
+			u windshield/
+				u windshield1.r/R
+				        @ color          0/255/255
+				        @ los            100
+				        @ material_id    13
+				        @ oshader        glass
+				        @ region         R
+				        @ region_id      1030
+				        @ rgb            0/255/255
+				        @ shader         glass
+					u windshield1.s
+					        @ Proe_Name    WINDSHIELD
+			u rear_wall/
+				u rear_window/
+					u rear_window1.r/R
+					        @ color          0/255/255
+					        @ los            100
+					        @ material_id    13
+					        @ oshader        glass
+					        @ region         R
+					        @ region_id      1020
+					        @ rgb            0/255/255
+					        @ shader         glass
+						u rear_window1.s
+						        @ Proe_Name    REAR_WINDOW
+				u rear_wall1.r/R
+				        @ color          255/0/184
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1021
+				        @ rgb            255/0/184
+				        @ shader         plastic 
+					u rear_wall1.s
+					- lt_cab1.s
+					        @ Proe_Name    LT_CAB
+					- rt_cab1.s
+					        @ Proe_Name    RT_CAB
+					- rear_window1.s
+					        @ Proe_Name    REAR_WINDOW
+			u roof/
+				u roof1.r/R
+				        @ color          127/255/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1031
+				        @ rgb            127/255/0
+				        @ shader         plastic 
+					u roof1.s
+					        @ Proe_Name    ROOF
+					- lt_door1.s
+					        @ Proe_Name    LT_DOOR
+					- rt_door1.s
+					        @ Proe_Name    RT_DOOR
+			u cab_floor/
+				u firewall/
+					u firewall1.r/R
+					        @ color          191/63/63
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1035
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u firewall1.s
+						        @ Proe_Name    FIREWALL
+						- grill_mount1.s
+						        @ Proe_Name    GRILL_MOUNT
+				u left_floor/
+					u left_floor1.r/R
+					        @ color          127/255/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1036
+					        @ rgb            127/255/191
+					        @ shader         plastic 
+						u left_floor1.s
+						        @ Proe_Name    LEFT_FLOOR
+						- lt_door1.s
+						        @ Proe_Name    LT_DOOR
+				u right_floor/
+					u right_floor1.r/R
+					        @ color          255/191/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1037
+					        @ rgb            255/191/0
+					        @ shader         plastic 
+						u right_floor1.s
+						        @ Proe_Name    RIGHT_FLOOR
+						- rt_door1.s
+						        @ Proe_Name    RT_DOOR
+						- center_floor1.s
+						        @ Proe_Name    CENTER_FLOOR
+				u center_floor/
+					u center_floor1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1038
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u center_floor1.s
+						        @ Proe_Name    CENTER_FLOOR
+			u lt_quarter_panel/
+				u lt_quarter_panel1.r/R
+				        @ color          253/0/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1040
+				        @ rgb            253/0/255
+				        @ shader         plastic 
+					u lt_quarter_panel1.s
+					        @ Proe_Name    LT_QUARTER_PANEL
+					- firewall1.s
+					        @ Proe_Name    FIREWALL
+			u rt_quarter_panel/
+				u rt_quarter_panel1.r/R
+				        @ color          223/255/191
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1041
+				        @ rgb            223/255/191
+				        @ shader         plastic 
+					u rt_quarter_panel1.s
+					        @ Proe_Name    RT_QUARTER_PANEL
+					- right_turn_signal1.s
+					        @ Proe_Name    RIGHT_TURN_SIGNAL
+					- firewall1.s
+					        @ Proe_Name    FIREWALL
+			u cowl/
+				u cowl1.r/R
+				        @ color          255/127/0
+				        @ los            30
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1042
+				        @ rgb            255/127/0
+				        @ shader         plastic 
+					u cowl1.s
+					        @ Proe_Name    COWL
+			u front_left_wheel_well/
+				u front_left_wheel_well1.r/R
+				        @ color          191/63/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1043
+				        @ rgb            191/63/255
+				        @ shader         plastic 
+					u front_left_wheel_well1.s
+				u front_left_wheel_well2.r/R
+				        @ color          191/63/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1044
+				        @ rgb            191/63/255
+				        @ shader         plastic 
+					u front_left_wheel_well2.s
+			u front_right_wheel_well/
+				u front_right_wheel_well1.r/R
+				        @ color          191/63/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1045
+				        @ rgb            191/63/255
+				        @ shader         plastic 
+					u front_right_wheel_well1.s
+				u front_right_wheel_well2.r/R
+				        @ color          191/63/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1046
+				        @ rgb            191/63/255
+				        @ shader         plastic 
+					u front_right_wheel_well2.s
+			u lt_door/
+				u lt_door_handle/
+					u lt_door_handle1.r/R
+					        @ color          0/197/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1100
+					        @ rgb            0/197/255
+					        @ shader         plastic 
+						u lt_door_handle1.s
+						        @ Proe_Name    LT_DOOR_HANDLE
+				u lt_door_window/
+					u lt_door_window1.r/R
+					        @ color          0/255/255
+					        @ los            100
+					        @ material_id    13
+					        @ oshader        glass
+					        @ region         R
+					        @ region_id      1101
+					        @ rgb            0/255/255
+					        @ shader         glass
+						u lt_door_window1.s
+						        @ Proe_Name    LT_DOOR_WINDOW
+				u lt_door1.r/R
+				        @ color          255/191/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1102
+				        @ rgb            255/191/0
+				        @ shader         plastic 
+					u lt_door1.s
+					        @ Proe_Name    LT_DOOR
+			u rt_door/
+				u rt_door_handle/
+					u rt_door_handle1.r/R
+					        @ color          29/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1120
+					        @ rgb            29/255/0
+					        @ shader         plastic 
+						u rt_door_handle1.s
+						        @ Proe_Name    RT_DOOR_HANDLE
+				u rt_door_window/
+					u rt_door_window1.r/R
+					        @ color          0/255/255
+					        @ los            100
+					        @ material_id    13
+					        @ oshader        glass
+					        @ region         R
+					        @ region_id      1121
+					        @ rgb            0/255/255
+					        @ shader         glass
+						u rt_door_window1.s
+						        @ Proe_Name    RT_DOOR_WINDOW
+				u rt_door1.r/R
+				        @ color          191/63/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1122
+				        @ rgb            191/63/255
+				        @ shader         plastic 
+					u rt_door1.s
+					        @ Proe_Name    RT_DOOR
+			u hood_asy/
+				u hood_skin/
+					u hood_skin1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1140
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u hood_skin1.s
+						        @ Proe_Name    HOOD_SKIN
+						- hood_left_brace1.s
+						- hood_center_brace1.s
+						        @ Proe_Name    HOOD_CENTER_BRACE
+						- hood_right_brace1.s
+						- air_filter_intake1.s
+						        @ Proe_Name    AIR_FILTER_INTAKE
+						- air_filter_housing1.s
+						        @ Proe_Name    AIR_FILTER_HOUSING
+						- emblem1.s
+						        @ Proe_Name    EMBLEM
+						- radiator_housing1.s
+						        @ Proe_Name    RADIATOR_HOUSING
+						- radiator_coolant1.s
+						        @ Proe_Name    RADIATOR_COOLANT
+						- pump2rad_hose_coolant1.s
+						        @ Proe_Name    PUMP2RAD_HOSE_COOLANT
+						- pump2rad_hose1.s
+						        @ Proe_Name    PUMP2RAD_HOSE
+						- coolant_reservoir_hose1.s
+						        @ Proe_Name    COOLANT_RESERVOIR_HOSE
+				u hood_center_brace/
+					u hood_center_brace1.r/R
+					        @ color          190/190/190
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1141
+					        @ rgb            190/190/190
+					        @ shader         plastic 
+						u hood_center_brace1.s
+						        @ Proe_Name    HOOD_CENTER_BRACE
+				u hood_left_brace/
+					u hood_left_brace1.r/R
+					        @ color          190/190/190
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1142
+					        @ rgb            190/190/190
+					        @ shader         plastic 
+						u hood_left_brace1.s
+				u hood_right_brace/
+					u hood_right_brace1.r/R
+					        @ color          190/190/190
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1143
+					        @ rgb            190/190/190
+					        @ shader         plastic 
+						u hood_right_brace1.s
+			u front_bumper/
+				u front_bumper1.r/R
+				        @ color          230/230/230
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1160
+				        @ rgb            230/230/230
+				        @ shader         plastic 
+					u front_bumper1.s
+					        @ Proe_Name    FRONT_BUMPER
+					- right_front_bumper_mount1.s
+					        @ Proe_Name    RIGHT_FRONT_BUMPER_MOUNT
+			u grill_asy/
+				u grill/
+					u grill1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1180
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u grill1.s
+						        @ Proe_Name    GRILL
+				u grill_mount/
+					u grill_mount1.r/R
+					        @ color          255/127/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1181
+					        @ rgb            255/127/0
+					        @ shader         plastic 
+						u grill_mount1.s
+						        @ Proe_Name    GRILL_MOUNT
+						- grill1.s
+						        @ Proe_Name    GRILL
+				u left_headlight_casing/
+					u left_headlight_casing1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1182
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u left_headlight_casing1.s
+						        @ Proe_Name    LEFT_HEADLIGHT_CASING
+				u left_headlight_glass/
+					u left_headlight_glass1.r/R
+					        @ color          0/255/255
+					        @ los            100
+					        @ material_id    13
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1183
+					        @ rgb            0/255/255
+					        @ shader         plastic 
+						u left_headlight_glass1.s
+						        @ Proe_Name    LEFT_HEADLIGHT_GLASS
+				u left_turn_signal/
+					u left_turn_signal1.r/R
+					        @ color          100/255/0
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1184
+					        @ rgb            100/255/0
+					        @ shader         plastic 
+						u left_turn_signal1.s
+						        @ Proe_Name    LEFT_TURN_SIGNAL
+				u right_headlight_casing/
+					u right_headlight_casing1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1185
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u right_headlight_casing1.s
+						        @ Proe_Name    RIGHT_HEADLIGHT_CASING
+				u right_headlight_glass/
+					u right_headlight_glass1.r/R
+					        @ color          0/255/255
+					        @ los            100
+					        @ material_id    13
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1186
+					        @ rgb            0/255/255
+					        @ shader         plastic 
+						u right_headlight_glass1.s
+						        @ Proe_Name    RIGHT_HEADLIGHT_GLASS
+				u right_turn_signal/
+					u right_turn_signal1.r/R
+					        @ color          100/255/0
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1187
+					        @ rgb            100/255/0
+					        @ shader         plastic 
+						u right_turn_signal1.s
+						        @ Proe_Name    RIGHT_TURN_SIGNAL
+		u cab_interior/
+			u dash_asy/
+				u dash/
+					u dash1.r/R
+					        @ color          139/134/78
+					        @ los            25
+					        @ material_id    11
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1200
+					        @ rgb            139/134/78
+					        @ shader         plastic 
+						u dash1.s
+						        @ Proe_Name    DASH
+						- firewall1.s
+						        @ Proe_Name    FIREWALL
+				u gauges/
+					u speedometer/
+						u speedometer1.r/R
+						        @ color          255/0/255
+						        @ los            25
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1201
+						        @ rgb            255/0/255
+						        @ shader         plastic 
+							u speedometer1.s
+							        @ Proe_Name    SPEEDOMETER
+					u tachometer/
+						u tachometer1.r/R
+						        @ color          255/0/255
+						        @ los            25
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1202
+						        @ rgb            255/0/255
+						        @ shader         plastic 
+							u tachometer1.s
+							        @ Proe_Name    TACHOMETER
+					u temp_and_fuel/
+						u temp_and_fuel1.r/R
+						        @ color          255/0/255
+						        @ los            25
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1203
+						        @ rgb            255/0/255
+						        @ shader         plastic 
+							u temp_and_fuel1.s
+							        @ Proe_Name    TEMP_AND_FUEL
+				u radio/
+					u radio1.r/R
+					        @ color          0/255/255
+					        @ los            25
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1204
+					        @ rgb            0/255/255
+					        @ shader         plastic 
+						u radio1.s
+						        @ Proe_Name    RADIO
+			u front_seats/
+				u front_left_seat/
+					u left_seat_cushions/
+						u left_seat_bottom_cushion/
+							u left_seat_bottom_cushion1.r/R
+							        @ color          255/127/0
+							        @ los            100
+							        @ material_id    27
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1210
+							        @ rgb            255/127/0
+							        @ shader         plastic 
+								u left_seat_bottom_cushion1.s
+								        @ Proe_Name    LEFT_SEAT_BOTTOM_CUSHION
+						u left_seat_back_cushion/
+							u left_seat_back_cushion1.r/R
+							        @ color          255/127/0
+							        @ los            100
+							        @ material_id    27
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1211
+							        @ rgb            255/127/0
+							        @ shader         plastic 
+								u left_seat_back_cushion1.s
+								        @ Proe_Name    LEFT_SEAT_BACK_CUSHION
+						u left_seat_headrest/
+							u left_seat_headrest1.r/R
+							        @ color          255/127/0
+							        @ los            100
+							        @ material_id    27
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1212
+							        @ rgb            255/127/0
+							        @ shader         plastic 
+								u left_seat_headrest1.s
+								        @ Proe_Name    LEFT_SEAT_HEADREST
+					u left_seat_steel/
+						u left_seat_back/
+							u left_seat_back1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1213
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u left_seat_back1.s
+								        @ Proe_Name    LEFT_SEAT_BACK
+						u left_seat_bottom/
+							u left_seat_bottom1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1214
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u left_seat_bottom1.s
+								        @ Proe_Name    LEFT_SEAT_BOTTOM
+						u left_seat_hinge/
+							u left_seat_hinge1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1215
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u left_seat_hinge1.s
+								        @ Proe_Name    LEFT_SEAT_HINGE
+						u left_seat_left_headrest_mount/
+							u left_seat_left_headrest_mount1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1216
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u left_seat_left_headrest_mount1.s
+								        @ Proe_Name    LEFT_SEAT_LEFT_HEADREST_MOUNT
+						u left_seat_left_rail/
+							u left_seat_left_rail1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1217
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u left_seat_left_rail1.s
+								        @ Proe_Name    LEFT_SEAT_LEFT_RAIL
+								- left_floor1.s
+								        @ Proe_Name    LEFT_FLOOR
+						u left_seat_right_headrest_mount/
+							u left_seat_right_headrest_mount1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1218
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u left_seat_right_headrest_mount1.s
+								        @ Proe_Name    LEFT_SEAT_RIGHT_HEADREST_MOUNT
+						u left_seat_right_rail/
+							u left_seat_right_rail1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1219
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u left_seat_right_rail1.s
+								        @ Proe_Name    LEFT_SEAT_RIGHT_RAIL
+								- left_floor1.s
+								        @ Proe_Name    LEFT_FLOOR
+				u front_right_seat/
+					u right_seat_cushions/
+						u right_seat_bottom_cushion/
+							u right_seat_bottom_cushion1.r/R
+							        @ color          255/127/0
+							        @ los            100
+							        @ material_id    27
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1220
+							        @ rgb            255/127/0
+							        @ shader         plastic 
+								u right_seat_bottom_cushion1.s
+								        @ Proe_Name    RIGHT_SEAT_BOTTOM_CUSHION
+						u right_seat_back_cushion/
+							u right_seat_back_cushion1.r/R
+							        @ color          255/127/0
+							        @ los            100
+							        @ material_id    27
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1221
+							        @ rgb            255/127/0
+							        @ shader         plastic 
+								u right_seat_back_cushion1.s
+								        @ Proe_Name    RIGHT_SEAT_BACK_CUSHION
+						u right_seat_headrest/
+							u right_seat_headrest1.r/R
+							        @ color          255/127/0
+							        @ los            100
+							        @ material_id    27
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1222
+							        @ rgb            255/127/0
+							        @ shader         plastic 
+								u right_seat_headrest1.s
+								        @ Proe_Name    RIGHT_SEAT_HEADREST
+					u right_seat_steel/
+						u right_seat_back/
+							u right_seat_back1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1223
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u right_seat_back1.s
+								        @ Proe_Name    RIGHT_SEAT_BACK
+						u right_seat_bottom/
+							u right_seat_bottom1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1224
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u right_seat_bottom1.s
+								        @ Proe_Name    RIGHT_SEAT_BOTTOM
+						u right_seat_hinge/
+							u right_seat_hinge1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1225
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u right_seat_hinge1.s
+								        @ Proe_Name    RIGHT_SEAT_HINGE
+						u right_seat_left_headrest_mount/
+							u right_seat_left_headrest_mount1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1226
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u right_seat_left_headrest_mount1.s
+								        @ Proe_Name    RIGHT_SEAT_LEFT_HEADREST_MOUNT
+						u right_seat_left_rail/
+							u right_seat_left_rail1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1227
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u right_seat_left_rail1.s
+								        @ Proe_Name    RIGHT_SEAT_LEFT_RAIL
+						u right_seat_right_headrest_mount/
+							u right_seat_right_headrest_mount1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1228
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u right_seat_right_headrest_mount1.s
+								        @ Proe_Name    RIGHT_SEAT_RIGHT_HEADREST_MOUNT
+						u right_seat_right_rail/
+							u right_seat_right_rail1.r/R
+							        @ color          191/63/255
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      1229
+							        @ rgb            191/63/255
+							        @ shader         plastic 
+								u right_seat_right_rail1.s
+								        @ Proe_Name    RIGHT_SEAT_RIGHT_RAIL
+			u folding_seats/
+				u folding_left_seat/
+					u left_folding_seat_cushion/
+						u left_folding_seat_cushion1.r/R
+						        @ color          63/191/127
+						        @ los            100
+						        @ material_id    27
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1230
+						        @ rgb            63/191/127
+						        @ shader         plastic 
+							u left_folding_seat_cushion1.s
+							        @ Proe_Name    LEFT_FOLDING_SEAT_CUSHION
+					u left_folding_seat_hingepin/
+						u left_folding_seat_hingepin1.r/R
+						        @ color          191/191/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1231
+						        @ rgb            191/191/255
+						        @ shader         plastic 
+							u left_folding_seat_hingepin1.s
+							        @ Proe_Name    LEFT_FOLDING_SEAT_HINGEPIN
+					u left_folding_seat_metal/
+						u left_folding_seat_metal1.r/R
+						        @ color          190/190/190
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1232
+						        @ rgb            190/190/190
+						        @ shader         plastic 
+							u left_folding_seat_metal1.s
+							        @ Proe_Name    LEFT_FOLDING_SEAT_METAL
+				u folding_right_seat/
+					u right_folding_seat_cushion/
+						u right_folding_seat_cushion1.r/R
+						        @ color          63/191/127
+						        @ los            100
+						        @ material_id    27
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1240
+						        @ rgb            63/191/127
+						        @ shader         plastic 
+							u right_folding_seat_cushion1.s
+							        @ Proe_Name    RIGHT_FOLDING_SEAT_CUSHION
+					u right_folding_seat_hingepin/
+						u right_folding_seat_hingepin1.r/R
+						        @ color          191/191/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1241
+						        @ rgb            191/191/255
+						        @ shader         plastic 
+							u right_folding_seat_hingepin1.s
+							        @ Proe_Name    RIGHT_FOLDING_SEAT_HINGEPIN
+					u right_folding_seat_metal/
+						u right_folding_seat_metal1.r/R
+						        @ color          190/190/190
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      1242
+						        @ rgb            190/190/190
+						        @ shader         plastic 
+							u right_folding_seat_metal1.s
+							        @ Proe_Name    RIGHT_FOLDING_SEAT_METAL
+			u cab_heater/
+				u heater1.r/R
+				        @ Proe_Name      HEATER
+				        @ density        1
+				        @ los            25
+				        @ mass           3.23339e+006
+				        @ material_id    1
+				        @ region         R
+				        @ region_id      1245
+				        @ volume         3.23339e+006
+					u heater1.s
+					        @ Proe_Name    HEATER
+				u blower1.r/R
+				        @ Proe_Name      BLOWER
+				        @ density        1
+				        @ los            25
+				        @ material_id    1
+				        @ region         R
+				        @ region_id      1246
+					u blower1.s
+					        @ Proe_Name    BLOWER
+				u duct1.r/R
+				        @ Proe_Name      DUCT
+				        @ density        1
+				        @ los            10
+				        @ mass           686009
+				        @ material_id    12
+				        @ region         R
+				        @ region_id      1247
+				        @ volume         686009
+					u duct1.s
+					        @ Proe_Name    DUCT
+	u truck_bed_asy/
+		u truck_bed/
+			u bed_floor/
+				u bed_floor1.r/R
+				        @ color          191/63/63
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1400
+				        @ rgb            191/63/63
+				        @ shader         plastic 
+					u bed_floor1.s
+					- bed_right_wall1.s
+					        @ Proe_Name    BED_RIGHT_WALL
+			u bed_left_fender/
+				u bed_left_fender1.r/R
+				        @ los            100
+				        @ material_id    1
+				        @ region         R
+				        @ region_id      1405
+					u bed_left_fender1.s
+			u bed_right_fender/
+				u bed_right_fender1.r/R
+				        @ los            100
+				        @ material_id    1
+				        @ region         R
+				        @ region_id      1406
+					u bed_right_fender1.s
+			u bed_front_wall/
+				u bed_front_wall1.r/R
+				        @ color          255/127/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1410
+				        @ rgb            255/127/0
+				        @ shader         plastic 
+					u bed_front_wall1.s
+					        @ Proe_Name    BED_FRONT_WALL
+					- fuel_tank1.s
+					        @ Proe_Name    FUEL_TANK
+					- top_third_fuel1.s
+					        @ Proe_Name    TOP_THIRD_FUEL
+			u bed_left_wall/
+				u bed_left_wall1.r/R
+				        @ color          127/255/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1420
+				        @ rgb            127/255/0
+				        @ shader         plastic 
+					u bed_left_wall1.s
+					        @ Proe_Name    BED_LEFT_WALL
+					- left_taillight_lens1.s
+					        @ Proe_Name    LEFT_TAILLIGHT_LENS
+			u bed_right_wall/
+				u fuel_fill_door/
+					u fuel_fill_door1.r/R
+					        @ color          232/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      1430
+					        @ rgb            232/0/255
+					        @ shader         plastic 
+						u fuel_fill_door1.s
+						        @ Proe_Name    FUEL_FILL_DOOR
+				u bed_right_wall1.r/R
+				        @ color          63/191/191
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1431
+				        @ rgb            63/191/191
+				        @ shader         plastic 
+					u bed_right_wall1.s
+					        @ Proe_Name    BED_RIGHT_WALL
+					- fuel_fill_door1.s
+					        @ Proe_Name    FUEL_FILL_DOOR
+		u taillight_lenses/
+			u left_taillight_lens/
+				u left_taillight_lens1.r/R
+				        @ color          255/0/0
+				        @ los            100
+				        @ material_id    12
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1440
+				        @ rgb            255/0/0
+				        @ shader         plastic 
+					u left_taillight_lens1.s
+					        @ Proe_Name    LEFT_TAILLIGHT_LENS
+			u right_taillight_lens/
+				u right_taillight_lens1.r/R
+				        @ color          255/0/0
+				        @ los            100
+				        @ material_id    12
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1445
+				        @ rgb            255/0/0
+				        @ shader         plastic 
+					u right_taillight_lens1.s
+					        @ Proe_Name    RIGHT_TAILLIGHT_LENS
+		u tailgate_asy/
+			u tailgate/
+				u tailgate1.r/R
+				        @ color          0/0/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1450
+				        @ rgb            0/0/255
+				        @ shader         plastic 
+					u tailgate1.s
+					        @ Proe_Name    TAILGATE
+			u tailgate_handle/
+				u tailgate_handle1.r/R
+				        @ color          255/127/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1451
+				        @ rgb            255/127/0
+				        @ shader         plastic 
+					u tailgate_handle1.s
+					        @ Proe_Name    TAILGATE_HANDLE
+		u rear_bumper_asy/
+			u rear_bumper/
+				u rear_bumper1.r/R
+				        @ color          0/255/23
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1460
+				        @ rgb            0/255/23
+				        @ shader         plastic 
+					u rear_bumper1.s
+					        @ Proe_Name    REAR_BUMPER
+			u rear_bumper_top/
+				u rear_bumper_top1.r/R
+				        @ color          0/255/255
+				        @ los            100
+				        @ material_id    12
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      1461
+				        @ rgb            0/255/255
+				        @ shader         plastic 
+					u rear_bumper_top1.s
+					        @ Proe_Name    REAR_BUMPER_TOP
+	u mainframes/
+		u left_mainframe/
+			u left_mainframe1.r/R
+			        @ color          191/191/255
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1800
+			        @ rgb            191/191/255
+			        @ shader         plastic 
+				u left_mainframe1.s
+				        @ Proe_Name    LEFT_MAINFRAME
+				- crossmember_41.s
+				        @ Proe_Name    CROSSMEMBER_4
+				- left_rear_shackles2.s
+		u right_mainframe/
+			u right_mainframe1.r/R
+			        @ color          191/191/255
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1801
+			        @ rgb            191/191/255
+			        @ shader         plastic 
+				u right_mainframe1.s
+				        @ Proe_Name    RIGHT_MAINFRAME
+				- right_rear_shackles2.s
+		u crossmember_1/
+			u crossmember_11.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1802
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u crossmember_11.s
+				        @ Proe_Name    CROSSMEMBER_1
+		u crossmember_3/
+			u crossmember_31.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1803
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u crossmember_31.s
+				        @ Proe_Name    CROSSMEMBER_3
+				- transmission1.s
+		u crossmember_4/
+			u crossmember_41.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1804
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u crossmember_41.s
+				        @ Proe_Name    CROSSMEMBER_4
+		u crossmember_5/
+			u crossmember_51.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1805
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u crossmember_51.s
+				        @ Proe_Name    CROSSMEMBER_5
+		u crossmember_6/
+			u crossmember_61.r/R
+			        @ color          255/191/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1806
+			        @ rgb            255/191/0
+			        @ shader         plastic 
+				u crossmember_61.s
+				        @ Proe_Name    CROSSMEMBER_6
+		u crossmember_7/
+			u crossmember_71.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1807
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u crossmember_71.s
+				        @ Proe_Name    CROSSMEMBER_7
+		u crossmember_8/
+			u crossmember_81.r/R
+			        @ color          255/191/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1808
+			        @ rgb            255/191/0
+			        @ shader         plastic 
+				u crossmember_81.s
+				        @ Proe_Name    CROSSMEMBER_8
+		u crossmember_9/
+			u crossmember_91.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1809
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u crossmember_91.s
+				        @ Proe_Name    CROSSMEMBER_9
+		u left_front_bumper_mount/
+			u left_front_bumper_mount1.r/R
+			        @ color          255/191/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1810
+			        @ rgb            255/191/0
+			        @ shader         plastic 
+				u left_front_bumper_mount1.s
+				        @ Proe_Name    LEFT_FRONT_BUMPER_MOUNT
+				- front_bumper1.s
+				        @ Proe_Name    FRONT_BUMPER
+		u left_rear_bumper_mount/
+			u left_rear_bumper_mount1.r/R
+			        @ color          190/190/190
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1811
+			        @ rgb            190/190/190
+			        @ shader         plastic 
+				u left_rear_bumper_mount1.s
+				        @ Proe_Name    LEFT_REAR_BUMPER_MOUNT
+		u right_front_bumper_mount/
+			u right_front_bumper_mount1.r/R
+			        @ color          255/191/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1812
+			        @ rgb            255/191/0
+			        @ shader         plastic 
+				u right_front_bumper_mount1.s
+				        @ Proe_Name    RIGHT_FRONT_BUMPER_MOUNT
+		u right_rear_bumper_mount/
+			u right_rear_bumper_mount1.r/R
+			        @ color          190/190/190
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      1813
+			        @ rgb            190/190/190
+			        @ shader         plastic 
+				u right_rear_bumper_mount1.s
+				        @ Proe_Name    RIGHT_REAR_BUMPER_MOUNT
+	u fuel_system/
+		u fuel_cap/
+			u fuel_cap1.r/R
+			        @ color          127/255/0
+			        @ los            100
+			        @ material_id    12
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2000
+			        @ rgb            127/255/0
+			        @ shader         plastic 
+				u fuel_cap1.s
+				        @ Proe_Name    FUEL_CAP
+		u fuel_fill_neck/
+			u fuel_fill_neck1.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    5
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2001
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u fuel_fill_neck1.s
+				        @ Proe_Name    FUEL_FILL_NECK
+		u fuel_fill_tube/
+			u fuel_fill_tube1.r/R
+			        @ color          255/127/0
+			        @ los            100
+			        @ material_id    5
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2002
+			        @ rgb            255/127/0
+			        @ shader         plastic 
+				u fuel_fill_tube1.s
+				        @ Proe_Name    FUEL_FILL_TUBE
+		u fuel_filter/
+			u fuel_filter1.r/R
+			        @ color          191/191/255
+			        @ los            30
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2004
+			        @ rgb            191/191/255
+			        @ shader         plastic 
+				u fuel_filter1.s
+				        @ Proe_Name    FUEL_FILTER
+				- fuel1.s
+		u fuel_lines/
+			u fuel/
+				u fuel1.r/R
+				        @ color          0/33/255
+				        @ los            100
+				        @ material_id    25
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2005
+				        @ rgb            0/33/255
+				        @ shader         plastic 
+					u fuel1.s
+					u fuel1a.s
+				u fuel2.r/R
+				        @ color          0/33/255
+				        @ los            100
+				        @ material_id    25
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2009
+				        @ rgb            0/33/255
+				        @ shader         plastic 
+					u fuel2.s
+			u fuel_lines1.r/R
+			        @ color          0/255/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2006
+			        @ rgb            0/255/0
+			        @ shader         plastic 
+				u fuel_lines1.s
+				- fuel1.s
+			u fuel_lines2.r/R
+			        @ color          0/255/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2007
+			        @ rgb            0/255/0
+			        @ shader         plastic 
+				u fuel_lines2.s
+				- fuel1.s
+			u fuel_lines3.r/R
+			        @ color          0/255/0
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2014
+			        @ rgb            0/255/0
+			        @ shader         plastic 
+				u fuel_lines3.s
+				- fuel2.s
+		u fuel_pump/
+			u fuel_pump1.r/R
+			        @ color          255/0/189
+			        @ los            25
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2008
+			        @ rgb            255/0/189
+			        @ shader         plastic 
+				u fuel_pump1.s
+				        @ Proe_Name    FUEL_PUMP
+		u fuel_tank/
+			u fuel_tank1.r/R
+			        @ color          0/135/255
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      2020
+			        @ rgb            0/135/255
+			        @ shader         plastic 
+				u fuel_tank1.s
+				        @ Proe_Name    FUEL_TANK
+		u fuel_in_tank/
+			u bottom_third_fuel/
+				u bottom_third_fuel1.r/R
+				        @ color          7/255/0
+				        @ los            100
+				        @ material_id    25
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2010
+				        @ rgb            7/255/0
+				        @ shader         plastic 
+					u bottom_third_fuel1.s
+					        @ Proe_Name    BOTTOM_THIRD_FUEL
+			u middle_third_fuel/
+				u middle_third_fuel1.r/R
+				        @ color          255/191/0
+				        @ los            100
+				        @ material_id    25
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2011
+				        @ rgb            255/191/0
+				        @ shader         plastic 
+					u middle_third_fuel1.s
+					        @ Proe_Name    MIDDLE_THIRD_FUEL
+			u top_third_fuel/
+				u top_third_fuel1.r/R
+				        @ color          0/173/255
+				        @ los            100
+				        @ material_id    25
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2012
+				        @ rgb            0/173/255
+				        @ shader         plastic 
+					u top_third_fuel1.s
+					        @ Proe_Name    TOP_THIRD_FUEL
+			u ullage/
+				u ullage1.r/R
+				        @ color          255/0/0
+				        @ los            100
+				        @ material_id    25
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2013
+				        @ rgb            255/0/0
+				        @ shader         plastic 
+					u ullage1.s
+					        @ Proe_Name    ULLAGE
+		u carburetor_asy/
+			u carburetor/
+				u carb_inside/
+					u carb_inside1.r/R
+					        @ color          191/63/255
+					        @ los            10
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      2030
+					        @ rgb            191/63/255
+					        @ shader         plastic 
+						u carb_inside1.s
+						        @ Proe_Name    CARB_INSIDE
+				u carburetor1.r/R
+				        @ color          255/127/0
+				        @ los            100
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2031
+				        @ rgb            255/127/0
+				        @ shader         plastic 
+					u carburetor1.s
+					        @ Proe_Name    CARBURETOR
+			u carb_manifold/
+				u carb_manifold_inside/
+					u carb_manifold_inside1.r/R
+					        @ color          191/191/255
+					        @ los            5
+					        @ material_id    25
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      2032
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u carb_manifold_inside1.s
+						        @ Proe_Name    CARB_MANIFOLD_INSIDE
+						- carb_manifold1.s
+						        @ Proe_Name    CARB_MANIFOLD
+				u carb_manifold1.r/R
+				        @ color          255/0/255
+				        @ los            100
+				        @ material_id    4
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2033
+				        @ rgb            255/0/255
+				        @ shader         plastic 
+					u carb_manifold1.s
+					        @ Proe_Name    CARB_MANIFOLD
+		u air_filter_asy/
+			u air_filter_housing/
+				u air_filter_housing1.r/R
+				        @ color          191/63/63
+				        @ los            100
+				        @ material_id    12
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2040
+				        @ rgb            191/63/63
+				        @ shader         plastic 
+					u air_filter_housing1.s
+					        @ Proe_Name    AIR_FILTER_HOUSING
+			u air_filter_intake/
+				u air_filter_intake1.r/R
+				        @ color          127/255/191
+				        @ los            100
+				        @ material_id    12
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2041
+				        @ rgb            127/255/191
+				        @ shader         plastic 
+					u air_filter_intake1.s
+					        @ Proe_Name    AIR_FILTER_INTAKE
+			u air_filter/
+				u air_filter1.r/R
+				        @ color          190/190/190
+				        @ los            50
+				        @ material_id    27
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      2042
+				        @ rgb            190/190/190
+				        @ shader         plastic 
+					u air_filter1.s
+					        @ Proe_Name    AIR_FILTER
+	u powertrain/
+		u engine/
+			u engine_block/
+				u engine_block1.r/R
+				        @ color          191/191/255
+				        @ los            75
+				        @ material_id    4
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4000
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u engine_block1.s
+					        @ Proe_Name    ENGINE_BLOCK
+			u cylinder_heads/
+				u cylinder_heads1.r/R
+				        @ color          70/255/0
+				        @ los            75
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4001
+				        @ rgb            70/255/0
+				        @ shader         plastic 
+					u cylinder_heads1.s
+					        @ Proe_Name    CYLINDER_HEADS
+			u head_cover/
+				u valves/
+					u valves1.r/R
+					        @ color          191/63/63
+					        @ los            25
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4002
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u valves1.s
+						- head_cover1.s
+				u oil_fill_cap/
+					u oil_fill_cap1.r/R
+					        @ color          255/55/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4003
+					        @ rgb            255/55/0
+					        @ shader         plastic 
+						u oil_fill_cap1.s
+						        @ Proe_Name    OIL_FILL_CAP
+				u head_cover1.r/R
+				        @ color          0/92/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4004
+				        @ rgb            0/92/255
+				        @ shader         plastic 
+					u head_cover1.s
+			u oil_pan/
+				u oil_pan1.r/R
+				        @ color          232/0/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4005
+				        @ rgb            232/0/255
+				        @ shader         plastic 
+					u oil_pan1.s
+					        @ Proe_Name    OIL_PAN
+			u oil_filter_assm/
+				u oil_filter_mount/
+					u oil_filter_mount1.r/R
+					        @ color          215/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4006
+					        @ rgb            215/0/255
+					        @ shader         plastic 
+						u oil_filter_mount1.s
+						        @ Proe_Name    OIL_FILTER_MOUNT
+				u oil_filter/
+					u oil_filter1.r/R
+					        @ color          0/255/33
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4007
+					        @ rgb            0/255/33
+					        @ shader         plastic 
+						u oil_filter1.s
+						        @ Proe_Name    OIL_FILTER
+				u oil_filter_oil/
+					u oil_filter_oil1.r/R
+					        @ color          191/63/63
+					        @ los            100
+					        @ material_id    21
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4008
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u oil_filter_oil1.s
+					u oil_filter_oil2.r/R
+					        @ color          191/63/63
+					        @ los            100
+					        @ material_id    21
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4009
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u oil_filter_oil2.s
+			u lt_engine_mnt/
+				u lt_engine_mnt_rubber/
+					u lt_engine_mnt_rubber1.r/R
+					        @ color          105/105/105
+					        @ los            100
+					        @ material_id    18
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4010
+					        @ rgb            105/105/105
+					        @ shader         plastic 
+						u lt_engine_mnt_rubber1.s
+						        @ Proe_Name    LT_ENGINE_MNT_RUBBER
+				u lt_engine_mnt1.r/R
+				        @ color          255/191/191
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4011
+				        @ rgb            255/191/191
+				        @ shader         plastic 
+					u lt_engine_mnt1.s
+					- left_mainframe1.s
+					        @ Proe_Name    LEFT_MAINFRAME
+				u lt_engine_mnt2.r/R
+				        @ color          255/191/191
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4012
+				        @ rgb            255/191/191
+				        @ shader         plastic 
+					u lt_engine_mnt2.s
+			u rt_engine_mnt/
+				u rt_engine_mnt_rubber/
+					u rt_engine_mnt_rubber1.r/R
+					        @ color          105/105/105
+					        @ los            100
+					        @ material_id    18
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4013
+					        @ rgb            105/105/105
+					        @ shader         plastic 
+						u rt_engine_mnt_rubber1.s
+						        @ Proe_Name    RT_ENGINE_MNT_RUBBER
+				u rt_engine_mnt1.r/R
+				        @ color          255/191/191
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4014
+				        @ rgb            255/191/191
+				        @ shader         plastic 
+					u rt_engine_mnt1.s
+					- right_mainframe1.s
+					        @ Proe_Name    RIGHT_MAINFRAME
+				u rt_engine_mnt2.r/R
+				        @ color          255/191/191
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4015
+				        @ rgb            255/191/191
+				        @ shader         plastic 
+					u rt_engine_mnt2.s
+			u belt_tensioner/
+				u belt_tensioner1.r/R
+				        @ color          184/55/55
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4016
+				        @ rgb            184/55/55
+				        @ shader         plastic 
+					u belt_tensioner1.s
+				u belt_tensioner2.r/R
+				        @ color          184/55/55
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4017
+				        @ rgb            184/55/55
+				        @ shader         plastic 
+					u belt_tensioner2.s
+			u harmonic_dampener/
+				u harmonic_dampener1.r/R
+				        @ color          0/127/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4018
+				        @ rgb            0/127/0
+				        @ shader         plastic 
+					u harmonic_dampener1.s
+					        @ Proe_Name    HARMONIC_DAMPENER
+			u oil_pump/
+				u oil_pump1.r/R
+				        @ Proe_Name      OIL_PUMP
+				        @ density        1
+				        @ los            75
+				        @ mass           54124.3
+				        @ material_id    1
+				        @ region         R
+				        @ region_id      4020
+				        @ volume         54124.3
+					u oil_pump1.s
+					        @ Proe_Name    OIL_PUMP
+				u oil_pump2.r/R
+				        @ Proe_Name      OIL_PUMP_DRIVE_SPINDLE
+				        @ density        1
+				        @ los            100
+				        @ mass           3138.57
+				        @ material_id    1
+				        @ region         R
+				        @ region_id      4021
+				        @ volume         3138.57
+					u oil_pump2.s
+					        @ Proe_Name    OIL_PUMP_DRIVE_SPINDLE
+		u transmission/
+			u transmission1.r/R
+			        @ color          0/116/255
+			        @ los            100
+			        @ material_id    5
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4100
+			        @ rgb            0/116/255
+			        @ shader         plastic 
+				u transmission1.s
+			u transmission_ins1.r/R
+			        @ los            50
+			        @ material_id    1
+			        @ region         R
+			        @ region_id      4101
+				u trans_inside1.s
+		u rear_axle/
+			u differential/
+				u differential1.r/R
+				        @ color          255/127/0
+				        @ los            50
+				        @ material_id    4
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4120
+				        @ rgb            255/127/0
+				        @ shader         plastic 
+					u differential1.s
+					        @ Proe_Name    DIFFERENTIAL
+			u left_axle/
+				u left_axle1.r/R
+				        @ color          191/63/63
+				        @ los            50
+				        @ material_id    4
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4121
+				        @ rgb            191/63/63
+				        @ shader         plastic 
+					u left_axle1.s
+					        @ Proe_Name    LEFT_AXLE
+			u right_axle/
+				u right_axle1.r/R
+				        @ color          191/63/63
+				        @ los            50
+				        @ material_id    4
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4122
+				        @ rgb            191/63/63
+				        @ shader         plastic 
+					u right_axle1.s
+					        @ Proe_Name    RIGHT_AXLE
+			u left_hub/
+				u left_hub1.r/R
+				        @ color          127/255/0
+				        @ los            70
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4123
+				        @ rgb            127/255/0
+				        @ shader         plastic 
+					u left_hub1.s
+					        @ Proe_Name    LEFT_HUB
+			u right_hub/
+				u right_hub1.r/R
+				        @ color          127/255/0
+				        @ los            70
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4124
+				        @ rgb            127/255/0
+				        @ shader         plastic 
+					u right_hub1.s
+					        @ Proe_Name    RIGHT_HUB
+		u drive_shafts/
+			u drive_shafts1.r/R
+			        @ color          0/255/31
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4140
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts1.s
+			u drive_shafts2.r/R
+			        @ color          0/255/31
+			        @ los            30
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4141
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts2.s
+			u drive_shafts3.r/R
+			        @ color          0/255/31
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4142
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts3.s
+			u drive_shafts4.r/R
+			        @ color          0/255/31
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4143
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts4.s
+			u drive_shafts5.r/R
+			        @ color          0/255/31
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4144
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts5.s
+			u drive_shafts6.r/R
+			        @ color          0/255/31
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4145
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts6.s
+			u drive_shafts7.r/R
+			        @ color          0/255/31
+			        @ los            100
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4146
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts7.s
+			u drive_shafts8.r/R
+			        @ color          0/255/31
+			        @ los            30
+			        @ material_id    1
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      4147
+			        @ rgb            0/255/31
+			        @ shader         plastic 
+				u drive_shafts8.s
+		u cooling_system/
+			u radiator/
+				u radiator_housing/
+					u radiator_housing1.r/R
+					        @ color          255/127/0
+					        @ los            100
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4200
+					        @ rgb            255/127/0
+					        @ shader         plastic 
+						u radiator_housing1.s
+						        @ Proe_Name    RADIATOR_HOUSING
+				u radiator_core/
+					u radiator_core1.r/R
+					        @ color          191/191/255
+					        @ los            20
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4201
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u radiator_core1.s
+						        @ Proe_Name    RADIATOR_CORE
+				u radiator_coolant/
+					u radiator_coolant1.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    20
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4202
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u radiator_coolant1.s
+						        @ Proe_Name    RADIATOR_COOLANT
+				u radiator_cap/
+					u radiator_cap1.r/R
+					        @ color          255/0/0
+					        @ los            100
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4203
+					        @ rgb            255/0/0
+					        @ shader         plastic 
+						u radiator_cap1.s
+						        @ Proe_Name    RADIATOR_CAP
+			u radiator_fan/
+				u radiator_fan1.r/R
+				        @ color          0/127/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4204
+				        @ rgb            0/127/0
+				        @ shader         plastic 
+					u radiator_fan1.s
+				u radiator_fan2.r/R
+				        @ color          0/127/0
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4205
+				        @ rgb            0/127/0
+				        @ shader         plastic 
+					u radiator_fan2.s
+			u water_pump/
+				u water_pump_pulley/
+					u water_pump_pulley1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4206
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u water_pump_pulley1.s
+						        @ Proe_Name    WATER_PUMP_PULLEY
+				u water_pump1.r/R
+				        @ color          127/46/107
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4207
+				        @ rgb            127/46/107
+				        @ shader         plastic 
+					u water_pump1.s
+				u water_pump_ins1.r/R
+				        @ los            100
+				        @ material_id    20
+				        @ region         R
+				        @ region_id      4216
+					u water_pump_ins1.s
+			u coolant_reservoir/
+				u coolant_reservoir_housing/
+					u coolant_reservoir_housing1.r/R
+					        @ color          199/0/255
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4208
+					        @ rgb            199/0/255
+					        @ shader         plastic 
+						u coolant_reservoir_housing1.s
+						        @ Proe_Name    COOLANT_RESERVOIR_HOUSING
+				u coolant_reservoir_hose/
+					u coolant_reservoir_hose1.r/R
+					        @ color          190/190/190
+					        @ los            100
+					        @ material_id    18
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4209
+					        @ rgb            190/190/190
+					        @ shader         plastic 
+						u coolant_reservoir_hose1.s
+						        @ Proe_Name    COOLANT_RESERVOIR_HOSE
+				u coolant_reservoir_coolant/
+					u coolant_reservoir_coolant1.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    20
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4210
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u coolant_reservoir_coolant1.s
+						        @ Proe_Name    COOLANT_RESERVOIR_COOLANT
+			u fan_shroud/
+				u fan_shroud1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4211
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u fan_shroud1.s
+					        @ Proe_Name    FAN_SHROUD
+			u pump2rad_hose/
+				u pump2rad_hose_coolant/
+					u pump2rad_hose_coolant1.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    20
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4212
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u pump2rad_hose_coolant1.s
+						        @ Proe_Name    PUMP2RAD_HOSE_COOLANT
+						- pump2rad_hose1.s
+						        @ Proe_Name    PUMP2RAD_HOSE
+				u pump2rad_hose1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    18
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4213
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u pump2rad_hose1.s
+					        @ Proe_Name    PUMP2RAD_HOSE
+					- pump2rad_hose_coolant1.s
+					        @ Proe_Name    PUMP2RAD_HOSE_COOLANT
+			u rad2eng_hose/
+				u rad2eng_hose_coolant/
+					u rad2eng_hose_coolant1.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    20
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4214
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u rad2eng_hose_coolant1.s
+						        @ Proe_Name    RAD2ENG_HOSE_COOLANT
+						- radiator_housing1.s
+						        @ Proe_Name    RADIATOR_HOUSING
+						- alternator_belt1.s
+						        @ Proe_Name    ALTERNATOR_BELT
+						- rad2eng_hose1.s
+						        @ Proe_Name    RAD2ENG_HOSE
+				u rad2eng_hose1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    18
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4215
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u rad2eng_hose1.s
+					        @ Proe_Name    RAD2ENG_HOSE
+					- alternator_belt1.s
+					        @ Proe_Name    ALTERNATOR_BELT
+					- radiator_housing1.s
+					        @ Proe_Name    RADIATOR_HOUSING
+		u exhaust_system/
+			u exhaust_manifold/
+				u exhaust_manifold1.r/R
+				        @ color          0/255/255
+				        @ los            100
+				        @ material_id    4
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4300
+				        @ rgb            0/255/255
+				        @ shader         plastic 
+					u exhaust_manifold1.s
+					        @ Proe_Name    EXHAUST_MANIFOLD
+			u cat_converter/
+				u cat_converter1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4301
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u cat_converter1.s
+					        @ Proe_Name    CAT_CONVERTER
+			u cc2muffler_pipe/
+				u cc2muffler_pipe1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4302
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u cc2muffler_pipe1.s
+					        @ Proe_Name    CC2MUFFLER_PIPE
+					- cat_converter1.s
+					        @ Proe_Name    CAT_CONVERTER
+			u ex_mani2cc_pipe/
+				u ex_mani2cc_pipe1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4303
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u ex_mani2cc_pipe1.s
+					        @ Proe_Name    EX_MANI2CC_PIPE
+					- cat_converter1.s
+					        @ Proe_Name    CAT_CONVERTER
+			u minimuffler/
+				u minimuffler1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4304
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u minimuffler1.s
+					        @ Proe_Name    MINIMUFFLER
+			u muf2minimuf_pipe/
+				u muf2minimuf_pipe1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4305
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u muf2minimuf_pipe1.s
+					        @ Proe_Name    MUF2MINIMUF_PIPE
+			u muffler/
+				u muffler1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4306
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u muffler1.s
+					        @ Proe_Name    MUFFLER
+			u tailpipe/
+				u tailpipe1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4307
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u tailpipe1.s
+					        @ Proe_Name    TAILPIPE
+		u driver_controls/
+			u throttle_system/
+				u accelerator_pedal/
+					u accelerator_pedal_steel/
+						u accelerator_pedal_steel1.r/R
+						        @ color          190/190/190
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4500
+						        @ rgb            190/190/190
+						        @ shader         plastic 
+							u accelerator_pedal_steel1.s
+							        @ Proe_Name    ACCELERATOR_PEDAL_STEEL
+					u accelerator_pedal_rubber/
+						u accelerator_pedal_rubber1.r/R
+						        @ color          105/105/105
+						        @ los            100
+						        @ material_id    18
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4501
+						        @ rgb            105/105/105
+						        @ shader         plastic 
+							u accelerator_pedal_rubber1.s
+							        @ Proe_Name    ACCELERATOR_PEDAL_RUBBER
+				u accelerator_linkage/
+					u accelerator_linkage1.r/R
+					        @ color          255/127/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4502
+					        @ rgb            255/127/0
+					        @ shader         plastic 
+						u accelerator_linkage1.s
+						        @ Proe_Name    ACCELERATOR_LINKAGE
+				u accelerator_control/
+					u accelerator_control1.r/R
+					        @ color          0/100/255
+					        @ los            80
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4503
+					        @ rgb            0/100/255
+					        @ shader         plastic 
+						u accelerator_control1.s
+						        @ Proe_Name    ACCELERATOR_CONTROL
+				u accelerator_conduit/
+					u accelerator_conduit1.r/R
+					        @ color          248/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4504
+					        @ rgb            248/0/255
+					        @ shader         plastic 
+						u accelerator_conduit1.s
+						        @ Proe_Name    ACCELERATOR_CONDUIT
+				u accelerator_control_box/
+					u accelerator_control_box1.r/R
+					        @ Proe_Name      ACCELERATOR_CONTROL_BOX
+					        @ density        1
+					        @ los            100
+					        @ mass           34429
+					        @ material_id    1
+					        @ region         R
+					        @ region_id      4505
+					        @ volume         34429
+						u accelerator_control_box1.s
+						        @ Proe_Name    ACCELERATOR_CONTROL_BOX
+			u brake_system/
+				u brake_pedal/
+					u brake_pedal_steel/
+						u brake_pedal_steel1.r/R
+						        @ color          190/190/190
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4600
+						        @ rgb            190/190/190
+						        @ shader         plastic 
+							u brake_pedal_steel1.s
+							        @ Proe_Name    BRAKE_PEDAL_STEEL
+					u brake_pedal_rubber/
+						u brake_pedal_rubber1.r/R
+						        @ color          105/105/105
+						        @ los            100
+						        @ material_id    18
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4601
+						        @ rgb            105/105/105
+						        @ shader         plastic 
+							u brake_pedal_rubber1.s
+							        @ Proe_Name    BRAKE_PEDAL_RUBBER
+					u brake_arm/
+						u brake_arm1.r/R
+						        @ Proe_Name      BRAKE_ARM
+						        @ density        1
+						        @ los            100
+						        @ mass           43322.7
+						        @ material_id    1
+						        @ region         R
+						        @ region_id      4635
+						        @ volume         43322.7
+							u brake_arm1.s
+							        @ Proe_Name    BRAKE_ARM
+				u front_driver_side/
+					u front_driver_caliper/
+						u front_driver_caliper1.r/R
+						        @ color          0/56/255
+						        @ los            75
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4602
+						        @ rgb            0/56/255
+						        @ shader         plastic 
+							u front_driver_caliper1.s
+							        @ Proe_Name    FRONT_DRIVER_CALIPER
+					u front_driver_piping/
+						u front_driver_fluid/
+							u front_driver_fluid1.r/R
+							        @ color          205/41/144
+							        @ los            100
+							        @ material_id    21
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4603
+							        @ rgb            205/41/144
+							        @ shader         plastic 
+								u front_driver_fluid1.s
+								        @ Proe_Name    FRONT_DRIVER_FLUID
+								- front_driver_piping1.s
+								        @ Proe_Name    FRONT_DRIVER_PIPING
+						u front_driver_piping1.r/R
+						        @ color          255/114/0
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4604
+						        @ rgb            255/114/0
+						        @ shader         plastic 
+							u front_driver_piping1.s
+							        @ Proe_Name    FRONT_DRIVER_PIPING
+					u front_driver_rotor/
+						u front_driver_rotor1.r/R
+						        @ color          0/255/35
+						        @ los            75
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4605
+						        @ rgb            0/255/35
+						        @ shader         plastic 
+							u front_driver_rotor1.s
+							        @ Proe_Name    FRONT_DRIVER_ROTOR
+							- left_front_hub1.s
+							        @ Proe_Name    LEFT_FRONT_HUB
+							- lt_frt_rim21.s
+				u front_passenger_side/
+					u front_passenger_caliper/
+						u front_passenger_caliper1.r/R
+						        @ color          45/255/0
+						        @ los            75
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4606
+						        @ rgb            45/255/0
+						        @ shader         plastic 
+							u front_passenger_caliper1.s
+							        @ Proe_Name    FRONT_PASSENGER_CALIPER
+					u front_passenger_piping/
+						u front_passenger_fluid/
+							u front_passenger_fluid1.r/R
+							        @ color          127/255/191
+							        @ los            100
+							        @ material_id    21
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4607
+							        @ rgb            127/255/191
+							        @ shader         plastic 
+								u front_passenger_fluid1.s
+						u front_passenger_piping1.r/R
+						        @ color          0/0/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4608
+						        @ rgb            0/0/255
+						        @ shader         plastic 
+							u front_passenger_piping1.s
+							- front_passenger_fluid1.s
+					u front_passenger_rotor/
+						u front_passenger_rotor1.r/R
+						        @ color          157/73/188
+						        @ los            75
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4609
+						        @ rgb            157/73/188
+						        @ shader         plastic 
+							u front_passenger_rotor1.s
+							        @ Proe_Name    FRONT_PASSENGER_ROTOR
+							- right_front_hub1.s
+							        @ Proe_Name    RIGHT_FRONT_HUB
+				u rear_driver_side/
+					u rear_driver_drum/
+						u rear_driver_drum1.r/R
+						        @ color          63/191/191
+						        @ los            50
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4610
+						        @ rgb            63/191/191
+						        @ shader         plastic 
+							u rear_driver_drum1.s
+							        @ Proe_Name    REAR_DRIVER_DRUM
+							- left_hub1.s
+							        @ Proe_Name    LEFT_HUB
+					u rear_driver_piping/
+						u rear_driver_fluid/
+							u rear_driver_fluid1.r/R
+							        @ color          0/255/12
+							        @ los            100
+							        @ material_id    21
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4611
+							        @ rgb            0/255/12
+							        @ shader         plastic 
+								u rear_driver_fluid1.s
+								        @ Proe_Name    REAR_DRIVER_FLUID
+								- rear_driver_piping1.s
+								        @ Proe_Name    REAR_DRIVER_PIPING
+						u rear_driver_piping1.r/R
+						        @ color          197/83/206
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4612
+						        @ rgb            197/83/206
+						        @ shader         plastic 
+							u rear_driver_piping1.s
+							        @ Proe_Name    REAR_DRIVER_PIPING
+				u rear_passenger_side/
+					u rear_passenger_drum/
+						u rear_passenger_drum1.r/R
+						        @ color          0/201/255
+						        @ los            50
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4613
+						        @ rgb            0/201/255
+						        @ shader         plastic 
+							u rear_passenger_drum1.s
+							        @ Proe_Name    REAR_PASSENGER_DRUM
+							- right_hub1.r/R
+							        @ color          127/255/0
+							        @ los            70
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4124
+							        @ rgb            127/255/0
+							        @ shader         plastic 
+								u right_hub1.s
+								        @ Proe_Name    RIGHT_HUB
+							- right_hub1.s
+							        @ Proe_Name    RIGHT_HUB
+					u rear_passenger_piping/
+						u rear_passenger_fluid/
+							u rear_passenger_fluid1.r/R
+							        @ color          0/51/255
+							        @ los            100
+							        @ material_id    21
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4614
+							        @ rgb            0/51/255
+							        @ shader         plastic 
+								u rear_passenger_fluid1.s
+								        @ Proe_Name    REAR_PASSENGER_FLUID
+						u rear_passenger_piping1.r/R
+						        @ color          44/255/0
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4615
+						        @ rgb            44/255/0
+						        @ shader         plastic 
+							u rear_passenger_piping1.s
+							        @ Proe_Name    REAR_PASSENGER_PIPING
+					u load_sensor_valve/
+						u load_sensor_piping/
+							u load_sensor_fluid/
+								u load_sensor_fluid1.r/R
+								        @ color          0/127/0
+								        @ los            100
+								        @ material_id    21
+								        @ oshader        plastic 
+								        @ region         R
+								        @ region_id      4616
+								        @ rgb            0/127/0
+								        @ shader         plastic 
+									u load_sensor_fluid1.s
+									        @ Proe_Name    LOAD_SENSOR_FLUID
+							u load_sensor_piping1.r/R
+							        @ color          255/48/0
+							        @ los            100
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4617
+							        @ rgb            255/48/0
+							        @ shader         plastic 
+								u load_sensor_piping1.s
+								        @ Proe_Name    LOAD_SENSOR_PIPING
+								- splitter1.s
+								        @ Proe_Name    SPLITTER
+								- load_sensor_fluid1.s
+								        @ Proe_Name    LOAD_SENSOR_FLUID
+						u splitter/
+							u splitter1.r/R
+							        @ color          235/0/255
+							        @ los            60
+							        @ material_id    1
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4618
+							        @ rgb            235/0/255
+							        @ shader         plastic 
+								u splitter1.s
+								        @ Proe_Name    SPLITTER
+						u load_sensor_valve1.r/R
+						        @ color          210/0/255
+						        @ los            60
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4619
+						        @ rgb            210/0/255
+						        @ shader         plastic 
+							u load_sensor_valve1.s
+							        @ Proe_Name    LOAD_SENSOR_VALVE
+				u master_cylinder_asy/
+					u booster_hose/
+						u booster_hose1.r/R
+						        @ color          191/191/255
+						        @ los            100
+						        @ material_id    18
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4620
+						        @ rgb            191/191/255
+						        @ shader         plastic 
+							u booster_hose1.s
+							- booster_hose1.s.i
+					u fluid_reserve/
+						u brake_fluid/
+							u brake_fluid1.r/R
+							        @ color          127/255/0
+							        @ los            100
+							        @ material_id    21
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4621
+							        @ rgb            127/255/0
+							        @ shader         plastic 
+								u brake_fluid1.s
+								- master_cylinder1.s
+								        @ Proe_Name    MASTER_CYLINDER
+							u brake_fluid2.r/R
+							        @ color          127/255/0
+							        @ los            100
+							        @ material_id    21
+							        @ oshader        plastic
+							        @ region         R
+							        @ region_id      4626
+							        @ rgb            127/255/0
+							        @ shader         plastic
+								u brake_fluid2.s
+						u fluid_reserve1.r/R
+						        @ color          0/37/255
+						        @ los            100
+						        @ material_id    12
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4622
+						        @ rgb            0/37/255
+						        @ shader         plastic 
+							u fluid_reserve1.s
+							        @ Proe_Name    FLUID_RESERVE
+					u master_cylinder/
+						u master_cylinder1.r/R
+						        @ color          255/0/255
+						        @ los            100
+						        @ material_id    4
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4623
+						        @ rgb            255/0/255
+						        @ shader         plastic 
+							u master_cylinder1.s
+							        @ Proe_Name    MASTER_CYLINDER
+					u master_cylinder_piping/
+						u master_cylinder_fluid/
+							u master_cylinder_fluid1.r/R
+							        @ color          18/255/0
+							        @ los            100
+							        @ material_id    21
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4624
+							        @ rgb            18/255/0
+							        @ shader         plastic 
+								u master_cylinder_fluid1.s
+						u master_cylinder_piping1.r/R
+						        @ color          0/187/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4625
+						        @ rgb            0/187/255
+						        @ shader         plastic 
+							u master_cylinder_piping1.s
+							- master_cylinder_fluid1.s
+				u brake_booster/
+					u brake_booster1.r/R
+					        @ Proe_Name      BRAKE_BOOSTER
+					        @ density        1
+					        @ los            100
+					        @ material_id    1
+					        @ region         R
+					        @ region_id      4627
+						u brake_booster1.s
+						        @ Proe_Name    BRAKE_BOOSTER
+				u parking_brake/
+					u pb_base1.r/R
+					        @ Proe_Name      PB_BASE
+					        @ density        1
+					        @ los            100
+					        @ material_id    1
+					        @ region         R
+					        @ region_id      4630
+						u pb_base1.s
+						        @ Proe_Name    PB_BASE
+					u pb_handle1.r/R
+					        @ Proe_Name      PB_HANDLE
+					        @ density        1
+					        @ los            100
+					        @ mass           67027.2
+					        @ material_id    1
+					        @ region         R
+					        @ region_id      4631
+					        @ volume         67027.2
+						u pb_handle1.s
+						        @ Proe_Name    PB_HANDLE
+					u pb_front_cable1.r/R
+					        @ Proe_Name      RB_FRONT_CABLE
+					        @ density        1
+					        @ los            100
+					        @ mass           27771.6
+					        @ material_id    1
+					        @ region         R
+					        @ region_id      4632
+					        @ volume         27771.6
+						u pb_front_cable1.s
+						        @ Proe_Name    RB_FRONT_CABLE
+					u pb_bk_left_cable1.r/R
+					        @ Proe_Name      PB_BK_LEFT_CABLE
+					        @ density        1
+					        @ los            100
+					        @ mass           34051.9
+					        @ material_id    1
+					        @ region         R
+					        @ region_id      4633
+					        @ volume         34051.9
+						u pb_bk_left_cable1.s
+						        @ Proe_Name    PB_BK_LEFT_CABLE
+					u pb_bk_right_cable1.r/R
+					        @ Proe_Name      PB_BK_RIGHT_CABLE
+					        @ density        1
+					        @ los            100
+					        @ mass           34123
+					        @ material_id    1
+					        @ region         R
+					        @ region_id      4634
+					        @ volume         34123
+						u pb_bk_right_cable1.s
+						        @ Proe_Name    PB_BK_RIGHT_CABLE
+			u steering_system/
+				u cross_rod/
+					u cross_rod1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4700
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u cross_rod1.s
+						        @ Proe_Name    CROSS_ROD
+				u idler_arm/
+					u idler_arm_mount/
+						u idler_arm_mount1.r/R
+						        @ color          191/191/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4701
+						        @ rgb            191/191/255
+						        @ shader         plastic 
+							u idler_arm_mount1.s
+							        @ Proe_Name    IDLER_ARM_MOUNT
+					u idler_arm1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4702
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u idler_arm1.s
+						        @ Proe_Name    IDLER_ARM
+				u lt_lower_steering_link/
+					u lt_lower_steering_link1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4703
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u lt_lower_steering_link1.s
+						        @ Proe_Name    LT_LOWER_STEERING_LINK
+				u lt_side_rod/
+					u lt_side_rod1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4704
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u lt_side_rod1.s
+						        @ Proe_Name    LT_SIDE_ROD
+				u pitman_arm/
+					u pitman_arm1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4705
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u pitman_arm1.s
+						        @ Proe_Name    PITMAN_ARM
+				u rt_lower_steering_link/
+					u rt_lower_steering_link1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4706
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u rt_lower_steering_link1.s
+						        @ Proe_Name    RT_LOWER_STEERING_LINK
+				u rt_side_rod/
+					u rt_side_rod1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4707
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u rt_side_rod1.s
+						        @ Proe_Name    RT_SIDE_ROD
+				u steer_gear/
+					u steer_gear1.r/R
+					        @ color          191/191/255
+					        @ los            80
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4708
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u steer_gear1.s
+						        @ Proe_Name    STEER_GEAR
+				u power_steering_assm/
+					u power_steering_pump/
+						u power_steering_pump1.r/R
+						        @ color          255/191/0
+						        @ los            75
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4730
+						        @ rgb            255/191/0
+						        @ shader         plastic 
+							u power_steering_pump1.s
+							        @ Proe_Name    POWER_STEERING_PUMP
+					u power_steering_pulley/
+						u power_steering_belt/
+							u power_steering_belt1.r/R
+							        @ color          191/191/255
+							        @ los            100
+							        @ material_id    18
+							        @ oshader        plastic 
+							        @ region         R
+							        @ region_id      4731
+							        @ rgb            191/191/255
+							        @ shader         plastic 
+								u power_steering_belt1.s
+								        @ Proe_Name    POWER_STEERING_BELT
+						u power_steering_pulley1.r/R
+						        @ color          0/255/9
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4732
+						        @ rgb            0/255/9
+						        @ shader         plastic 
+							u power_steering_pulley1.s
+							        @ Proe_Name    POWER_STEERING_PULLEY
+					u power_steering_reservoir/
+						u power_steering_reservoir1.r/R
+						        @ color          191/63/63
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4733
+						        @ rgb            191/63/63
+						        @ shader         plastic 
+							u power_steering_reservoir1.s
+							        @ Proe_Name    POWER_STEERING_RESERVOIR
+					u power_steering_piping_1/
+						u power_steering_piping_11.r/R
+						        @ color          244/0/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4734
+						        @ rgb            244/0/255
+						        @ shader         plastic 
+							u power_steering_piping_11.s
+							        @ Proe_Name    POWER_STEERING_PIPING_1
+					u power_steering_piping_2/
+						u power_steering_piping_21.r/R
+						        @ color          0/37/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4735
+						        @ rgb            0/37/255
+						        @ shader         plastic 
+							u power_steering_piping_21.s
+							        @ Proe_Name    POWER_STEERING_PIPING_2
+							- steer_gear1.s
+							        @ Proe_Name    STEER_GEAR
+							- left_mainframe1.s
+							        @ Proe_Name    LEFT_MAINFRAME
+					u power_steering_piping_3/
+						u power_steering_piping_31.r/R
+						        @ color          221/0/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4736
+						        @ rgb            221/0/255
+						        @ shader         plastic 
+							u power_steering_piping_31.s
+							        @ Proe_Name    POWER_STEERING_PIPING_3
+							- left_mainframe1.s
+							        @ Proe_Name    LEFT_MAINFRAME
+					u power_steering_fluid_1/
+						u power_steering_fluid_11.r/R
+						        @ color          0/255/50
+						        @ los            100
+						        @ material_id    21
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4737
+						        @ rgb            0/255/50
+						        @ shader         plastic 
+							u power_steering_fluid_11.s
+							        @ Proe_Name    POWER_STEERING_FLUID_1
+							- power_steering_piping_11.s
+							        @ Proe_Name    POWER_STEERING_PIPING_1
+							- power_steering_piping_21.s
+							        @ Proe_Name    POWER_STEERING_PIPING_2
+							- power_steering_reservoir1.s
+							        @ Proe_Name    POWER_STEERING_RESERVOIR
+					u power_steering_fluid_2/
+						u power_steering_fluid_21.r/R
+						        @ color          127/255/0
+						        @ los            100
+						        @ material_id    21
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4738
+						        @ rgb            127/255/0
+						        @ shader         plastic 
+							u power_steering_fluid_21.s
+							        @ Proe_Name    POWER_STEERING_FLUID_2
+							- left_mainframe1.s
+							        @ Proe_Name    LEFT_MAINFRAME
+							- steer_gear1.s
+							        @ Proe_Name    STEER_GEAR
+							- power_steering_piping_31.s
+							        @ Proe_Name    POWER_STEERING_PIPING_3
+				u steering_wheel/
+					u steering_column/
+						u steering_column1.r/R
+						        @ color          0/0/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4750
+						        @ rgb            0/0/255
+						        @ shader         plastic 
+							u steering_column1.s
+							        @ Proe_Name    STEERING_COLUMN
+					u steering_linkage/
+						u steering_linkage1.r/R
+						        @ color          255/63/0
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4751
+						        @ rgb            255/63/0
+						        @ shader         plastic 
+							u steering_linkage1.s
+						u steering_linkage2.r/R
+						        @ color          255/63/0
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4752
+						        @ rgb            255/63/0
+						        @ shader         plastic 
+							u steering_linkage2.s
+							- steering_linkage1.s
+						u steering_linkage3.r/R
+						        @ color          255/63/0
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4753
+						        @ rgb            255/63/0
+						        @ shader         plastic 
+							u steering_linkage3.s
+							- steering_linkage2.s
+							- steering_linkage1.s
+					u horn/
+						u horn1.r/R
+						        @ color          255/191/224
+						        @ los            100
+						        @ material_id    27
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4754
+						        @ rgb            255/191/224
+						        @ shader         plastic 
+							u horn1.s
+							        @ Proe_Name    HORN
+							- steering_wheel1.s
+							        @ Proe_Name    STEERING_WHEEL
+					u steering_wheel1.r/R
+					        @ color          14/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4755
+					        @ rgb            14/255/0
+					        @ shader         plastic 
+						u steering_wheel1.s
+						        @ Proe_Name    STEERING_WHEEL
+			u shifting_system/
+				u shifter/
+					u shifter1.r/R
+					        @ color          63/191/127
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4800
+					        @ rgb            63/191/127
+					        @ shader         plastic 
+						u shifter1.s
+						        @ Proe_Name    SHIFTER
+				u shifter_handle/
+					u shifter_handle1.r/R
+					        @ color          105/105/105
+					        @ los            100
+					        @ material_id    27
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4801
+					        @ rgb            105/105/105
+					        @ shader         plastic 
+						u shifter_handle1.s
+						        @ Proe_Name    SHIFTER_HANDLE
+				u shifter_base/
+					u shifter_base1.r/R
+					        @ color          191/63/63
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4802
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u shifter_base1.s
+					u shifter_base2.r/R
+					        @ color          191/63/63
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4803
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u shifter_base2.s
+				u shifter_cable/
+					u shifter_cable1.r/R
+					        @ color          255/127/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4804
+					        @ rgb            255/127/0
+					        @ shader         plastic 
+						u shifter_cable1.s
+						        @ Proe_Name    SHIFTER_CABLE
+				u shifter_control/
+					u shifter_control1.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4805
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u shifter_control1.s
+						        @ Proe_Name    SHIFTER_CONTROL
+						- transmission1.s
+		u electrical_system/
+			u alternator/
+				u alternator_casing/
+					u alternator_casing1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    4
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4900
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u alternator_casing1.s
+						        @ Proe_Name    ALTERNATOR_CASING
+				u alternator_inside/
+					u alternator_inside1.r/R
+					        @ color          255/127/0
+					        @ los            80
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4901
+					        @ rgb            255/127/0
+					        @ shader         plastic 
+						u alternator_inside1.s
+						        @ Proe_Name    ALTERNATOR_INSIDE
+				u alternator_pulley/
+					u alternator_pulley1.r/R
+					        @ color          0/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4902
+					        @ rgb            0/255/0
+					        @ shader         plastic 
+						u alternator_pulley1.s
+						        @ Proe_Name    ALTERNATOR_PULLEY
+				u alternator_shaft/
+					u alternator_shaft1.r/R
+					        @ color          191/63/63
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4903
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u alternator_shaft1.s
+						        @ Proe_Name    ALTERNATOR_SHAFT
+				u alternator_belt/
+					u alternator_belt1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    18
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4904
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u alternator_belt1.s
+						        @ Proe_Name    ALTERNATOR_BELT
+						- harmonic_dampener1.s
+						        @ Proe_Name    HARMONIC_DAMPENER
+						- water_pump_pulley1.s
+						        @ Proe_Name    WATER_PUMP_PULLEY
+			u battery/
+				u positive_terminal/
+					u positive_terminal1.r/R
+					        @ color          255/0/0
+					        @ los            100
+					        @ material_id    8
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4910
+					        @ rgb            255/0/0
+					        @ shader         plastic 
+						u positive_terminal1.s
+						        @ Proe_Name    POSITIVE_TERMINAL
+				u negative_terminal/
+					u negative_terminal1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    8
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4911
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u negative_terminal1.s
+						        @ Proe_Name    NEGATIVE_TERMINAL
+				u battery_inside/
+					u battery_inside1.r/R
+					        @ color          255/127/0
+					        @ los            40
+					        @ material_id    8
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4912
+					        @ rgb            255/127/0
+					        @ shader         plastic 
+						u battery_inside1.s
+						        @ Proe_Name    BATTERY_INSIDE
+				u battery_casing/
+					u battery_casing1.r/R
+					        @ color          63/191/127
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4913
+					        @ rgb            63/191/127
+					        @ shader         plastic 
+						u battery_casing1.s
+						        @ Proe_Name    BATTERY_CASING
+						- battery_inside1.s
+						        @ Proe_Name    BATTERY_INSIDE
+			u starter/
+				u starter_casing/
+					u starter_casing1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4920
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u starter_casing1.s
+						        @ Proe_Name    STARTER_CASING
+				u starter_shaft/
+					u starter_shaft1.r/R
+					        @ color          191/63/63
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4921
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u starter_shaft1.s
+						        @ Proe_Name    STARTER_SHAFT
+				u starter_inside/
+					u starter_inside1.r/R
+					        @ color          191/63/63
+					        @ los            90
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4922
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u starter_inside1.s
+						        @ Proe_Name    STARTER_INSIDE
+			u ignition_coils/
+				u ign_coil2/
+					u ign_coil21.r/R
+					        @ color          191/63/255
+					        @ los            90
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4930
+					        @ rgb            191/63/255
+					        @ shader         plastic 
+						u ign_coil21.s
+						        @ Proe_Name    IGN_COIL2
+				u ign_coil1/
+					u ign_coil11.r/R
+					        @ color          127/255/0
+					        @ los            90
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4931
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u ign_coil11.s
+						        @ Proe_Name    IGN_COIL1
+			u distributor/
+				u distributor_base/
+					u distributor_base1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    4
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4940
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u distributor_base1.s
+						        @ Proe_Name    DISTRIBUTOR_BASE
+				u distributor_cap/
+					u distributor_cap1.r/R
+					        @ color          0/127/0
+					        @ los            100
+					        @ material_id    12
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4941
+					        @ rgb            0/127/0
+					        @ shader         plastic 
+						u distributor_cap1.s
+						        @ Proe_Name    DISTRIBUTOR_CAP
+				u distributor_inside/
+					u distributor_inside1.r/R
+					        @ color          255/127/0
+					        @ los            10
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4942
+					        @ rgb            255/127/0
+					        @ shader         plastic 
+						u distributor_inside1.s
+						        @ Proe_Name    DISTRIBUTOR_INSIDE
+			u spark_plug/
+				u spark_plug1.r/R
+				        @ color          0/50/255
+				        @ los            90
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4950
+				        @ rgb            0/50/255
+				        @ shader         plastic 
+					u spark_plug1.s
+				u spark_plug2.r/R
+				        @ color          0/50/255
+				        @ los            90
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4951
+				        @ rgb            0/50/255
+				        @ shader         plastic 
+					u spark_plug2.s
+				u spark_plug3.r/R
+				        @ color          0/50/255
+				        @ los            90
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4952
+				        @ rgb            0/50/255
+				        @ shader         plastic 
+					u spark_plug3.s
+				u spark_plug4.r/R
+				        @ color          0/50/255
+				        @ los            90
+				        @ material_id    5
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      4953
+				        @ rgb            0/50/255
+				        @ shader         plastic 
+					u spark_plug4.s
+			u wires/
+				u bat_neg2alt/
+					u bat_neg2alt1.r/R
+					        @ color          255/0/0
+					        @ los            60
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4960
+					        @ rgb            255/0/0
+					        @ shader         plastic 
+						u bat_neg2alt1.s
+						        @ Proe_Name    BAT_NEG2ALT
+				u bat_neg2ign_coil2/
+					u bat_neg2ign_coil21.r/R
+					        @ color          255/0/0
+					        @ los            60
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4961
+					        @ rgb            255/0/0
+					        @ shader         plastic 
+						u bat_neg2ign_coil21.s
+						        @ Proe_Name    BAT_NEG2IGN_COIL2
+						- bat_pos2alt1.s
+						        @ Proe_Name    BAT_POS2ALT
+				u bat_neg2start/
+					u bat_neg2start1.r/R
+					        @ color          255/0/0
+					        @ los            60
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4962
+					        @ rgb            255/0/0
+					        @ shader         plastic 
+						u bat_neg2start1.s
+						        @ Proe_Name    BAT_NEG2START
+				u bat_pos2alt/
+					u bat_pos2alt1.r/R
+					        @ color          190/190/190
+					        @ los            60
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4963
+					        @ rgb            190/190/190
+					        @ shader         plastic 
+						u bat_pos2alt1.s
+						        @ Proe_Name    BAT_POS2ALT
+						- alternator_casing1.s
+						        @ Proe_Name    ALTERNATOR_CASING
+				u bat_pos2ign_coil1/
+					u bat_pos2ign_coil11.r/R
+					        @ color          190/190/190
+					        @ los            60
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4964
+					        @ rgb            190/190/190
+					        @ shader         plastic 
+						u bat_pos2ign_coil11.s
+						        @ Proe_Name    BAT_POS2IGN_COIL1
+						- hood_skin1.s
+						        @ Proe_Name    HOOD_SKIN
+						- front_passenger_fluid1.s
+						- front_passenger_piping1.s
+						- negative_terminal1.s
+						        @ Proe_Name    NEGATIVE_TERMINAL
+				u bat_pos2start/
+					u bat_pos2start1.r/R
+					        @ color          190/190/190
+					        @ los            60
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4965
+					        @ rgb            190/190/190
+					        @ shader         plastic 
+						u bat_pos2start1.s
+						        @ Proe_Name    BAT_POS2START
+				u ign_coil1_to_ign_coil2/
+					u ign_coil1_to_ign_coil21.r/R
+					        @ color          191/191/255
+					        @ los            60
+					        @ material_id    7
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      4966
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u ign_coil1_to_ign_coil21.s
+						        @ Proe_Name    IGN_COIL1_TO_IGN_COIL2
+				u dist2plugs_wire/
+					u dist2plug_wire1/
+						u dist2plug_wire11.r/R
+						        @ color          191/63/63
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4967
+						        @ rgb            191/63/63
+						        @ shader         plastic 
+							u dist2plug_wire11.s
+						u dist2plug_wire12.r/R
+						        @ color          191/63/63
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4968
+						        @ rgb            191/63/63
+						        @ shader         plastic 
+							u dist2plug_wire12.s
+					u dist2plug_wire2/
+						u dist2plug_wire21.r/R
+						        @ color          0/255/0
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4969
+						        @ rgb            0/255/0
+						        @ shader         plastic 
+							u dist2plug_wire21.s
+						u dist2plug_wire22.r/R
+						        @ color          0/255/0
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4970
+						        @ rgb            0/255/0
+						        @ shader         plastic 
+							u dist2plug_wire22.s
+					u dist2plug_wire3/
+						u dist2plug_wire31.r/R
+						        @ color          0/0/255
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4971
+						        @ rgb            0/0/255
+						        @ shader         plastic 
+							u dist2plug_wire31.s
+						u dist2plug_wire32.r/R
+						        @ color          0/0/255
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4972
+						        @ rgb            0/0/255
+						        @ shader         plastic 
+							u dist2plug_wire32.s
+					u dist2plug_wire4/
+						u dist2plug_wire41.r/R
+						        @ color          255/0/255
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4973
+						        @ rgb            255/0/255
+						        @ shader         plastic 
+							u dist2plug_wire41.s
+						u dist2plug_wire42.r/R
+						        @ color          255/0/255
+						        @ los            60
+						        @ material_id    7
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      4974
+						        @ rgb            255/0/255
+						        @ shader         plastic 
+							u dist2plug_wire42.s
+	u suspension/
+		u front_suspension/
+			u front_crossmember/
+				u front_crossmember1.r/R
+				        @ color          63/191/191
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      5000
+				        @ rgb            63/191/191
+				        @ shader         plastic 
+					u front_crossmember1.s
+					        @ Proe_Name    FRONT_CROSSMEMBER
+			u stabilizer_bar/
+				u stabilizer_bar1.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      5001
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u stabilizer_bar1.s
+					- right_front_lower_link1.s
+					        @ Proe_Name    RIGHT_FRONT_LOWER_LINK
+				u stabilizer_bar2.r/R
+				        @ color          191/191/255
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      5002
+				        @ rgb            191/191/255
+				        @ shader         plastic 
+					u stabilizer_bar2.s
+					- left_front_lower_link1.s
+					        @ Proe_Name    LEFT_FRONT_LOWER_LINK
+				u stabilizer_bar3.r/R
+				        @ los            100
+				        @ material_id    1
+				        @ region         R
+				        @ region_id      5003
+					u stabilizer_bar3.s
+			u left_front_suspension/
+				u left_front_hub/
+					u left_front_hub1.r/R
+					        @ color          63/191/191
+					        @ los            80
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5020
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_front_hub1.s
+						        @ Proe_Name    LEFT_FRONT_HUB
+				u left_front_lower_balljoint/
+					u left_front_lower_balljoint1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5021
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_front_lower_balljoint1.s
+						        @ Proe_Name    LEFT_FRONT_LOWER_BALLJOINT
+				u left_front_lower_link/
+					u left_front_lower_link1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5022
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_front_lower_link1.s
+						        @ Proe_Name    LEFT_FRONT_LOWER_LINK
+						- left_tension_rod1.s
+						        @ Proe_Name    LEFT_TENSION_ROD
+				u left_front_shock/
+					u left_front_shock1.r/R
+					        @ color          63/191/191
+					        @ los            60
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5023
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_front_shock1.s
+						        @ Proe_Name    LEFT_FRONT_SHOCK
+				u left_front_steering_knuckle/
+					u left_front_steering_knuckle1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5024
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_front_steering_knuckle1.s
+						        @ Proe_Name    LEFT_FRONT_STEERING_KNUCKLE
+				u left_front_torsion_bar/
+					u left_front_torsion_bar1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5025
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_front_torsion_bar1.s
+						        @ Proe_Name    LEFT_FRONT_TORSION_BAR
+						- crossmember_31.s
+						        @ Proe_Name    CROSSMEMBER_3
+				u left_front_upper_link/
+					u left_front_upper_link1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5026
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_front_upper_link1.s
+						        @ Proe_Name    LEFT_FRONT_UPPER_LINK
+				u left_suspension_mount/
+					u left_suspension_mount1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5027
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u left_suspension_mount1.s
+						        @ Proe_Name    LEFT_SUSPENSION_MOUNT
+						- front_left_wheel_well2.s
+						- left_mainframe1.s
+						        @ Proe_Name    LEFT_MAINFRAME
+						- front_left_wheel_well2.s
+				u left_tension_rod/
+					u left_tension_rod_mnt/
+						u left_tension_rod_mnt1.r/R
+						        @ color          191/191/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      5028
+						        @ rgb            191/191/255
+						        @ shader         plastic 
+							u left_tension_rod_mnt1.s
+							        @ Proe_Name    LEFT_TENSION_ROD_MNT
+					u left_tension_rod1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5029
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u left_tension_rod1.s
+						        @ Proe_Name    LEFT_TENSION_ROD
+			u right_front_suspension/
+				u right_front_hub/
+					u right_front_hub1.r/R
+					        @ color          63/191/191
+					        @ los            80
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5030
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_front_hub1.s
+						        @ Proe_Name    RIGHT_FRONT_HUB
+				u right_front_lower_balljoint/
+					u right_front_lower_balljoint1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5031
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_front_lower_balljoint1.s
+						        @ Proe_Name    RIGHT_FRONT_LOWER_BALLJOINT
+				u right_front_lower_link/
+					u right_front_lower_link1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5032
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_front_lower_link1.s
+						        @ Proe_Name    RIGHT_FRONT_LOWER_LINK
+						- right_tension_rod1.s
+						        @ Proe_Name    RIGHT_TENSION_ROD
+				u right_front_shock/
+					u right_front_shock1.r/R
+					        @ color          63/191/191
+					        @ los            60
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5033
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_front_shock1.s
+						        @ Proe_Name    RIGHT_FRONT_SHOCK
+				u right_front_steering_knuckle/
+					u right_front_steering_knuckle1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5034
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_front_steering_knuckle1.s
+						        @ Proe_Name    RIGHT_FRONT_STEERING_KNUCKLE
+				u right_front_torsion_bar/
+					u right_front_torsion_bar1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5035
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_front_torsion_bar1.s
+						        @ Proe_Name    RIGHT_FRONT_TORSION_BAR
+				u right_front_upper_link/
+					u right_front_upper_link1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5036
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_front_upper_link1.s
+						        @ Proe_Name    RIGHT_FRONT_UPPER_LINK
+				u right_suspension_mount/
+					u right_suspension_mount1.r/R
+					        @ color          63/191/191
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5037
+					        @ rgb            63/191/191
+					        @ shader         plastic 
+						u right_suspension_mount1.s
+						        @ Proe_Name    RIGHT_SUSPENSION_MOUNT
+						- front_right_wheel_well2.s
+						- right_mainframe1.s
+						        @ Proe_Name    RIGHT_MAINFRAME
+				u right_tension_rod/
+					u right_tension_rod_mnt/
+						u right_tension_rod_mnt1.r/R
+						        @ color          191/191/255
+						        @ los            100
+						        @ material_id    1
+						        @ oshader        plastic 
+						        @ region         R
+						        @ region_id      5038
+						        @ rgb            191/191/255
+						        @ shader         plastic 
+							u right_tension_rod_mnt1.s
+							        @ Proe_Name    RIGHT_TENSION_ROD_MNT
+					u right_tension_rod1.r/R
+					        @ color          191/191/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5039
+					        @ rgb            191/191/255
+					        @ shader         plastic 
+						u right_tension_rod1.s
+						        @ Proe_Name    RIGHT_TENSION_ROD
+		u rear_suspension/
+			u left_rear_suspension/
+				u left_rear_leaf_springs/
+					u left_rear_leaf_springs1.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5500
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u left_rear_leaf_springs1.s
+					u left_rear_leaf_springs2.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5501
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u left_rear_leaf_springs2.s
+						- left_rear_shackles2.s
+						- left_rear_leaf_springs4.s
+						- left_rear_shackles1.s
+						- left_rear_leaf_springs5.s
+					u left_rear_leaf_springs3.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5502
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u left_rear_leaf_springs3.s
+						- left_rear_leaf_springs4.s
+					u left_rear_leaf_springs4.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5503
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u left_rear_leaf_springs4.s
+						- left_rear_leaf_springs5.s
+					u left_rear_leaf_springs5.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5504
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u left_rear_leaf_springs5.s
+				u left_rear_shackles/
+					u left_rear_shackles1.r/R
+					        @ color          191/63/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5505
+					        @ rgb            191/63/255
+					        @ shader         plastic 
+						u left_rear_shackles1.s
+						- left_rear_leaf_springs4.s
+						- left_rear_leaf_springs5.s
+					u left_rear_shackles2.r/R
+					        @ color          191/63/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5506
+					        @ rgb            191/63/255
+					        @ shader         plastic 
+						u left_rear_shackles2.s
+				u left_rear_shocks/
+					u left_rear_shocks1.r/R
+					        @ color          191/63/63
+					        @ los            60
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5507
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u left_rear_shocks1.s
+					u left_rear_shocks2.r/R
+					        @ color          191/63/63
+					        @ los            60
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5508
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u left_rear_shocks2.s
+				u left_rear_u_clamp/
+					u left_rear_u_clamp1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5509
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u left_rear_u_clamp1.s
+					u left_rear_u_clamp2.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic
+					        @ region         R
+					        @ region_id      5510
+					        @ rgb            0/0/255
+					        @ shader         plastic
+						u left_rear_u_clamp2.s
+					u left_rear_u_clamp3.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic
+					        @ region         R
+					        @ region_id      5511
+					        @ rgb            0/0/255
+					        @ shader         plastic
+						u left_rear_u_clamp3.s
+			u right_rear_suspension/
+				u right_rear_leaf_springs/
+					u right_rear_leaf_springs1.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5550
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u right_rear_leaf_springs1.s
+					u right_rear_leaf_springs2.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5551
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u right_rear_leaf_springs2.s
+						- right_rear_leaf_springs3.s
+					u right_rear_leaf_springs3.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5552
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u right_rear_leaf_springs3.s
+						- right_rear_leaf_springs4.s
+					u right_rear_leaf_springs4.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5553
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u right_rear_leaf_springs4.s
+						- right_rear_leaf_springs5.s
+						- right_rear_shackles1.s
+					u right_rear_leaf_springs5.r/R
+					        @ color          127/255/0
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5554
+					        @ rgb            127/255/0
+					        @ shader         plastic 
+						u right_rear_leaf_springs5.s
+						- right_rear_shackles1.s
+						- right_axle1.s
+						        @ Proe_Name    RIGHT_AXLE
+				u right_rear_shackles/
+					u right_rear_shackles1.r/R
+					        @ color          191/63/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5555
+					        @ rgb            191/63/255
+					        @ shader         plastic 
+						u right_rear_shackles1.s
+					u right_rear_shackles2.r/R
+					        @ color          191/63/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5556
+					        @ rgb            191/63/255
+					        @ shader         plastic 
+						u right_rear_shackles2.s
+						- right_rear_leaf_springs5.s
+				u right_rear_shocks/
+					u right_rear_shocks1.r/R
+					        @ color          191/63/63
+					        @ los            60
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5557
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u right_rear_shocks1.s
+					u right_rear_shocks2.r/R
+					        @ color          191/63/63
+					        @ los            60
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5558
+					        @ rgb            191/63/63
+					        @ shader         plastic 
+						u right_rear_shocks2.s
+				u right_rear_u_clamps/
+					u right_rear_u_clamps1.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5559
+					        @ rgb            0/0/255
+					        @ shader         plastic 
+						u right_rear_u_clamps1.s
+					u right_rear_u_clamps2.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic
+					        @ region         R
+					        @ region_id      5560
+					        @ rgb            0/0/255
+					        @ shader         plastic
+						u right_rear_u_clamps2.s
+					u right_rear_u_clamps3.r/R
+					        @ color          0/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic
+					        @ region         R
+					        @ region_id      5561
+					        @ rgb            0/0/255
+					        @ shader         plastic
+						u right_rear_u_clamps3.s
+		u wheels/
+			u lt_frt_tire/
+				u lt_frt_rim1/
+					u lt_frt_rim11.r/R
+					        @ color          0/255/0
+					        @ los            100
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5800
+					        @ rgb            0/255/0
+					        @ shader         plastic 
+						u lt_frt_rim11.s
+						- left_front_hub1.s
+						        @ Proe_Name    LEFT_FRONT_HUB
+				u lt_frt_rim2/
+					u lt_frt_rim21.r/R
+					        @ color          255/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5801
+					        @ rgb            255/0/255
+					        @ shader         plastic 
+						u lt_frt_rim21.s
+						- lt_frt_rim11.s
+						- left_front_hub1.s
+						        @ Proe_Name    LEFT_FRONT_HUB
+				u lt_frt_tire1.r/R
+				        @ color          0/0/255
+				        @ los            50
+				        @ material_id    18
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      5802
+				        @ rgb            0/0/255
+				        @ shader         plastic 
+					u lt_frt_tire1.s
+					        @ Proe_Name    LT_FRT_TIRE
+					- lt_frt_rim11.s
+					- left_front_hub1.s
+					        @ Proe_Name    LEFT_FRONT_HUB
+					- lt_frt_rim21.s
+			u lt_rear_tire/
+				u lt_rear_rim1/
+					u lt_rear_rim11.r/R
+					        @ color          0/255/0
+					        @ los            100
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5810
+					        @ rgb            0/255/0
+					        @ shader         plastic 
+						u lt_rear_rim11.s
+				u lt_rear_rim2/
+					u lt_rear_rim21.r/R
+					        @ color          255/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5811
+					        @ rgb            255/0/255
+					        @ shader         plastic 
+						u lt_rear_rim21.s
+						- lt_rear_rim11.s
+				u lt_rear_tire1.r/R
+				        @ color          0/0/255
+				        @ los            50
+				        @ material_id    18
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      5812
+				        @ rgb            0/0/255
+				        @ shader         plastic 
+					u lt_rear_tire1.s
+					        @ Proe_Name    LT_REAR_TIRE
+					- lt_rear_rim11.s
+					- lt_rear_rim21.s
+			u rt_frt_tire/
+				u rt_frt_rim1/
+					u rt_frt_rim11.r/R
+					        @ color          0/255/0
+					        @ los            100
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5820
+					        @ rgb            0/255/0
+					        @ shader         plastic 
+						u rt_frt_rim11.s
+						- right_front_hub1.s
+						        @ Proe_Name    RIGHT_FRONT_HUB
+				u rt_frt_rim2/
+					u rt_frt_rim21.r/R
+					        @ color          255/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5821
+					        @ rgb            255/0/255
+					        @ shader         plastic 
+						u rt_frt_rim21.s
+						- rt_frt_rim11.s
+						- right_front_hub1.s
+						        @ Proe_Name    RIGHT_FRONT_HUB
+				u rt_frt_tire1.r/R
+				        @ color          0/0/255
+				        @ los            50
+				        @ material_id    18
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      5822
+				        @ rgb            0/0/255
+				        @ shader         plastic 
+					u rt_frt_tire1.s
+					        @ Proe_Name    RT_FRT_TIRE
+					- rt_frt_rim11.s
+			u rt_rear_tire/
+				u rt_rear_rim1/
+					u rt_rear_rim11.r/R
+					        @ color          0/255/0
+					        @ los            100
+					        @ material_id    5
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5830
+					        @ rgb            0/255/0
+					        @ shader         plastic 
+						u rt_rear_rim11.s
+				u rt_rear_rim2/
+					u rt_rear_rim21.r/R
+					        @ color          255/0/255
+					        @ los            100
+					        @ material_id    1
+					        @ oshader        plastic 
+					        @ region         R
+					        @ region_id      5831
+					        @ rgb            255/0/255
+					        @ shader         plastic 
+						u rt_rear_rim21.s
+						- rt_rear_rim11.s
+				u rt_rear_tire1.r/R
+				        @ color          0/0/255
+				        @ los            50
+				        @ material_id    18
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      5832
+				        @ rgb            0/0/255
+				        @ shader         plastic 
+					u rt_rear_tire1.s
+					        @ Proe_Name    RT_REAR_TIRE
+					- rt_rear_rim11.s
+					- rt_rear_rim21.s
+	u misc/
+		u emblem/
+			u emblem1.r/R
+			        @ color          255/191/0
+			        @ los            100
+			        @ material_id    12
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      8000
+			        @ rgb            255/191/0
+			        @ shader         plastic 
+				u emblem1.s
+				        @ Proe_Name    EMBLEM
+		u front_license_plate/
+			u front_license_plate1.r/R
+			        @ color          255/0/255
+			        @ los            100
+			        @ material_id    5
+			        @ oshader        plastic 
+			        @ region         R
+			        @ region_id      8001
+			        @ rgb            255/0/255
+			        @ shader         plastic 
+				u front_license_plate1.s
+				        @ Proe_Name    FRONT_LICENSE_PLATE
+		u left_door_mirror/
+			u left_door_mirror_case/
+				u left_door_mirror_case1.r/R
+				        @ color          105/105/105
+				        @ los            100
+				        @ material_id    12
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      8010
+				        @ rgb            105/105/105
+				        @ shader         plastic 
+					u left_door_mirror_case1.s
+					        @ Proe_Name    LEFT_DOOR_MIRROR_CASE
+			u left_door_mirror_glass/
+				u left_door_mirror_glass1.r/R
+				        @ color          0/255/255
+				        @ los            100
+				        @ material_id    13
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      8011
+				        @ rgb            0/255/255
+				        @ shader         plastic 
+					u left_door_mirror_glass1.s
+					        @ Proe_Name    LEFT_DOOR_MIRROR_GLASS
+			u left_door_mirror_mount/
+				u left_door_mirror_mount1.r/R
+				        @ color          105/105/105
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      8012
+				        @ rgb            105/105/105
+				        @ shader         plastic 
+					u left_door_mirror_mount1.s
+					        @ Proe_Name    LEFT_DOOR_MIRROR_MOUNT
+		u right_door_mirror/
+			u right_door_mirror_case/
+				u right_door_mirror_case1.r/R
+				        @ color          105/105/105
+				        @ los            100
+				        @ material_id    12
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      8020
+				        @ rgb            105/105/105
+				        @ shader         plastic 
+					u right_door_mirror_case1.s
+					        @ Proe_Name    RIGHT_DOOR_MIRROR_CASE
+			u right_door_mirror_glass/
+				u right_door_mirror_glass1.r/R
+				        @ color          0/255/255
+				        @ los            100
+				        @ material_id    13
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      8021
+				        @ rgb            0/255/255
+				        @ shader         plastic 
+					u right_door_mirror_glass1.s
+					        @ Proe_Name    RIGHT_DOOR_MIRROR_GLASS
+			u right_door_mirror_mount/
+				u right_door_mirror_mount1.r/R
+				        @ color          105/105/105
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      8022
+				        @ rgb            105/105/105
+				        @ shader         plastic 
+					u right_door_mirror_mount1.s
+					        @ Proe_Name    RIGHT_DOOR_MIRROR_MOUNT
+		u spare_tire_assm/
+			u spare_rim/
+				u spare_rim1.r/R
+				        @ color          188/62/62
+				        @ los            100
+				        @ material_id    1
+				        @ oshader        plastic 
+				        @ region         R
+				        @ region_id      8030
+				        @ rgb            188/62/62
+				        @ shader         plastic 
+					u spare_rim1.s
+					        @ Proe_Name    SPARE_RIM
+			u spare_tire/
+				u spare_tire1.r/R
+				        @ color          0/98/255
+				        @ los            60
+				        @ material_id    18
+				        @ oshader        plastic
+				        @ region         R
+				        @ region_id      8031
+				        @ rgb            0/98/255
+				        @ shader         plastic
+					u spare_tire1.s
+					        @ Proe_Name    SPARE_TIRE
+					- spare_rim1.s
+					        @ Proe_Name    SPARE_RIM
+		u wiper_fluid_reservoir/
+			u wiper_fluid_reservoir1.r/R
+			        @ Proe_Name      WIPER_FLUID_RESERVOIR
+			        @ density        1
+			        @ los            100
+			        @ mass           459184
+			        @ material_id    12
+			        @ region         R
+			        @ region_id      8040
+			        @ volume         459184
+				u wiper_fluid_reservoir1.s
+				        @ Proe_Name    WIPER_FLUID_RESERVOIR
+			u wiper_fluid1.r/R
+			        @ Proe_Name      WIPER_FLUID
+			        @ density        1
+			        @ los            100
+			        @ mass           2.80073e+006
+			        @ material_id    20
+			        @ region         R
+			        @ region_id      8041
+			        @ volume         2.80073e+006
+				u wiper_fluid1.s
+				        @ Proe_Name    WIPER_FLUID
+		u wiper_motor/
+			u wiper_motor1.r/R
+			        @ Proe_Name      WIPER_MOTOR
+			        @ density        1
+			        @ los            75
+			        @ mass           175545
+			        @ material_id    7
+			        @ region         R
+			        @ region_id      8042
+			        @ volume         175545
+				u wiper_motor1.s
+				        @ Proe_Name    WIPER_MOTOR
+	u cab_air/
+		u cab_air1.r/R
+		        @ aircode    2
+		        @ color      0/69/255
+		        @ oshader    plastic 
+		        @ region     R
+		        @ rgb        0/69/255
+		        @ shader     plastic 
+			u cab_air1.s
+			        @ Proe_Name    AIR
