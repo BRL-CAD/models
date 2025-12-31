@@ -17,8 +17,8 @@ Release Authority: U.S. Army DEVCOM Analysis Center
                   Points were imported into Rhino (v4.0 4b) where principal
                   modeling used reference points, sketches, and hand 
                   measurements.  Additional modeling in BRL-CAD (7.16.7)
-                  replaced lines and with BRL-CAD 'pipe' entities along with
-                  CSG subtractions to eliminate overlaps.
+                  replaced lines and pipes with BRL-CAD 'pipe' entities along
+                  with CSG subtractions to eliminate overlaps.
 
                   The model is topologically and geometrically solid.
 
