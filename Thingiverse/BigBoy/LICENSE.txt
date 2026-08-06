@@ -1,0 +1,19 @@
+STL:  per https://www.thingiverse.com/thing:259005/files
+
+License - CC BY
+4-8-8-4 Big Boy Locomotive
+by MakerBot is licensed under the Creative Commons - Attribution license.
+
+
+
+
+STEP (derived from GrabCAD commercial CAD files)
+https://grabcad.com/library/union-pacific-4-8-8-4-big-boy-locomotive-1
+
+Per comment from author:
+
+The posting on Thingiverse is the model I did for Makerbot. They posted it with
+the Create Commons Attribute. These [GrabCAD] files are posted without
+restrictions. I just ask is that you give credit where due if you use it for
+any commercial ventures.
+
